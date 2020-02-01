@@ -105,14 +105,17 @@ function displayMusings(bodyPart) {
  
 function createMusings(bodyPart) {
     var musingArray = require(`..${slash}lib${slash}text.js`).musings(points, bodyPart);
-    var table = document.createElement("table");
-    for(var musing in musingArray) {
-        var musingText = document.createElement("div");
-        musingText.innerHTML = musing;
-        musingText.className = "musing_table";
-        table.appendChild(musingText);
-    }
     var container = document.getElementsByClassName("container")[0];
+    var table = document.createElement("table");
+    musingArray.forEach(musing => {
+        var row = document.createElement("tr")
+        var musingText = document.createElement("button");
+        musingText.innerHTML = musing;
+        musingText.className = "musing_button";
+        row.appendChild(musingText);
+        table.appendChild(row);
+    })
+    
     container.appendChild(table);
 }
 
