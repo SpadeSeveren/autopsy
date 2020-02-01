@@ -89,6 +89,10 @@ function displayBody() {
     if(clicked) { // currently undefined
         displayMusings('legs');
     }
+    // display clickable item for clipboard
+    if(clicked) { // currently undefined
+        displayMusings('clipboard');
+    }
 
 }
 
