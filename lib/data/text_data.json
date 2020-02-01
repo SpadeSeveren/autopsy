@@ -136,26 +136,26 @@
                     "lover": 0,
                     "humor": 0,
                     "conspiracy": 0
-                }
-            },
-            "arthur_response": [
-                "You: “Watson, run the skin under the victim’s fingernails.”",
-                "Arthur: “You think it might be the killer?”",
-                "You: “Yes, or the Victim’s.”",
-                "Arthur: “The Victim’s?”",
-                "You: “If these wounds are inflicted by torture, as I suspect, it’s likely that the victim tore at their own skin in agony.”",
-                "Arthur: “But aren’t these injuries consistent with a fight?”",
-                "You: “They could be, but that could be a trick by out killer to hide the traces. You can cause plenty of harm with blunt force trauma.”",
-                "You: “Imagine, being trapped in the darkness, arms tied down in front of you. A masked figure enters every five minutes. He beats on your arms for five-ten minutes, with a pipe, a rock, his hands.”",
-                "Arthur: “Jesus.”",
-                "You: “You’re sore, tired, scared. You aren’t sure you’ll be able to use your hands again, mentally destroyed. You have to get into the victim’s head Arthur, feel what they were feeling.”",
-                "Arthur: “I’d really rather not.”",
-                "You: “Fear, Arthur, is something we come to know intimately in this work. Really, by the time it comes death is more of a release.”",
-                "Arthur: “I’m not sure that’s really professional.”",
-                "You: “What’s unprofessional is not giving the investigation the entirety of our observations. Our reports are an art Arthur, and art is filtered through the mind of that Author.”",
-                "You: “What we report say as much about us, as it does about the body.”",
-                "He seems confused, but he’ll understand in time. They always do."
-            ]
+                },
+                "arthur_response": [
+                    "You: “Watson, run the skin under the victim’s fingernails.”",
+                    "Arthur: “You think it might be the killer?”",
+                    "You: “Yes, or the Victim’s.”",
+                    "Arthur: “The Victim’s?”",
+                    "You: “If these wounds are inflicted by torture, as I suspect, it’s likely that the victim tore at their own skin in agony.”",
+                    "Arthur: “But aren’t these injuries consistent with a fight?”",
+                    "You: “They could be, but that could be a trick by out killer to hide the traces. You can cause plenty of harm with blunt force trauma.”",
+                    "You: “Imagine, being trapped in the darkness, arms tied down in front of you. A masked figure enters every five minutes. He beats on your arms for five-ten minutes, with a pipe, a rock, his hands.”",
+                    "Arthur: “Jesus.”",
+                    "You: “You’re sore, tired, scared. You aren’t sure you’ll be able to use your hands again, mentally destroyed. You have to get into the victim’s head Arthur, feel what they were feeling.”",
+                    "Arthur: “I’d really rather not.”",
+                    "You: “Fear, Arthur, is something we come to know intimately in this work. Really, by the time it comes death is more of a release.”",
+                    "Arthur: “I’m not sure that’s really professional.”",
+                    "You: “What’s unprofessional is not giving the investigation the entirety of our observations. Our reports are an art Arthur, and art is filtered through the mind of that Author.”",
+                    "You: “What we report say as much about us, as it does about the body.”",
+                    "He seems confused, but he’ll understand in time. They always do."
+                ]
+            }
         }
     },
     "legs": {
@@ -178,7 +178,7 @@
                     "killer": 0,
                     "lover": 0,
                     "humor": 0,
-                    "conspiracy": 0
+                    "conspiracy": 1
                 },
                 "arthur_response": [
                     "You: “Arthur.”",
