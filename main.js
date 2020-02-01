@@ -7,6 +7,8 @@ let points = {
     "dispassionate": 0
 }
 
+let aurthurMood = 'normal';
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win
@@ -117,6 +119,14 @@ function displayArthurResponse(bodyPart, musing) {
     if (clicked) { // curently undefined
         displayBody();
     }
+}
+
+function setMood(moodToSet) {
+    aurthurMood = moodToSet;
+}
+
+function getMood() {
+    return aurthurMood;
 }
 
 function increasePoints(bodyPart, musing) {
