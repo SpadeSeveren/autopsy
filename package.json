@@ -10,14 +10,8 @@
   "author": "Judah Bolz-Weber",
   "license": "ISC",
   "scripts": {
-    "build": "webpack -p",
-    "start": "webpack && qode ./dist/index.js",
-    "debug": "webpack && qode --inspect ./dist/index.js",
-    "temp": "webpack && qode ./temp.js"
   },
-  "dependencies": {
-    "@nodegui/nodegui": "^0.13.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.1.4",
     "file-loader": "^5.0.2",

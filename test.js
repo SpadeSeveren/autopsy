@@ -1,0 +1,1 @@
+console.log(require('./lib/text.js').increasePoints(require('./lib/data/points.json'), 'head', 'filler musing'));
