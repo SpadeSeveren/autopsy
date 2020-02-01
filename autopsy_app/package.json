@@ -1,5 +1,5 @@
 {
-  "name": "Autopsy-App",
+  "name": "autopsy_app",
   "version": "0.1.0",
   "main": "main.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "dependencies": {
     "electron": "^7.1.11",
     "jquery": "^3.4.1"
-  }
+  },
+  "author": "Judah Bolz-Weber, Eddie Rogers",
+  "license": "ISC",
+  "description": ""
 }

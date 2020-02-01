@@ -106,8 +106,8 @@ function displayYesNo(bodyPart, musing) {
 }
 
 function displayArthurResponse(bodyPart, musing) {
-    let res = require('../lib/text.js').fetchAurthurResponse(bodyPart, musing);
-    // display res
+    let response = require('../lib/text.js').fetchAurthurResponse(bodyPart, musing);
+    // display response
     // display button to continue
     if (clicked) { // curently undefined
         displayBody();
