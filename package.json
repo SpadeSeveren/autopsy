@@ -9,8 +9,7 @@
   },
   "author": "Judah Bolz-Weber",
   "license": "ISC",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.1.4",
