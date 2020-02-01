@@ -1,0 +1,30 @@
+{
+  "name": "autopsy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpadeSeveren/autopsy.git"
+  },
+  "author": "Judah Bolz-Weber",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack && qode ./dist/index.js",
+    "debug": "webpack && qode --inspect ./dist/index.js",
+    "temp": "webpack && qode ./temp.js"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "file-loader": "^5.0.2",
+    "native-addon-loader": "^2.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
