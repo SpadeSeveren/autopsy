@@ -6,9 +6,10 @@
     "start": "electron .",
     "rootStart": "electron --no-sandbox ."
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^7.1.11"
+  },
   "dependencies": {
-    "electron": "^7.1.11",
     "jquery": "^3.4.1"
   },
   "author": "Judah Bolz-Weber, Eddie Rogers",
