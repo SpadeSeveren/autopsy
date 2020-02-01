@@ -9,7 +9,7 @@ let points = {
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let win
+let win;
 
 function createWindow() {
     // Create the browser window.
@@ -22,7 +22,7 @@ function createWindow() {
     })
 
     // and load the index.html of the app.
-    win.loadFile('index.html')
+    win.loadFile('scenes\\body.html')
 
     win.maximize();
 
@@ -63,7 +63,9 @@ app.on('activate', () => {
 
 
 function testFunction() {
-    console.log('HERE');
+    // and load the index.html of the app.
+    console.log("Here");
+    win.loadFile('scenes\\head.html');
 }
 
 
@@ -123,3 +125,5 @@ function increasePoints(bodyPart, musing) {
     points = require('./lib/text.js').increasePoints(points, bodyPart, musing);
     console.log(points);
 }
+
+
