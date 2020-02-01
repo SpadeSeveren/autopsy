@@ -1,0 +1,66 @@
+{
+    "head": {
+        "filler musing": {
+            "requires": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            },
+            "increase_points": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            }
+        }
+    },
+    "torso": {
+        "filler musing": {
+            "requires": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            },
+            "increase_points": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            }
+        }
+    },
+    "arms": {
+        "filler musing": {
+            "requires": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            },
+            "increase_points": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            }
+        }
+    },
+    "legs": {
+        "filler musing": {
+            "requires": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            },
+            "increase_points": {
+                "killer": 0,
+                "lover": 0,
+                "humor": 0,
+                "dispassionate": 0
+            }
+        }
+    }
+}
