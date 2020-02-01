@@ -19,7 +19,7 @@
                     "dispassionate": 0
                 },
                 "increase_points": {
-                    "killer": 0,
+                    "killer": 1,
                     "lover": 0,
                     "humor": 0,
                     "dispassionate": 0
@@ -59,14 +59,30 @@
                     "dispassionate": 0
                 },
                 "increase_points": {
-                    "killer": 0,
+                    "killer": 1,
                     "lover": 0,
                     "humor": 0,
                     "dispassionate": 0
                 },
                 "arthur_response": [
-                    "lorem",
-                    "ipsum"
+                    "You: “Our killer was diligent, thorough. They took their time with this, were fully committed to their gruesome work.”",
+                    "Arthur: “What makes you say that?”",
+                    "You: “Look at this incision, mid chest and yet they took the time to dig the intestines out of the lower abdomen. Any layman could tell you it would be easier to place a lower horizontal cut, but that could drag the rest of the organs out after they began cutting.”",
+                    "Arthur: “The cut did go sternum to navel, in a typical chest incision cut. It could be the killer watched some police procedural, and aped what they saw.”",
+                    "You: “Arthur, you aren’t using your head. If some amateur had tried this, the organs would be a mess. The rough handling would had left some sort of bruising or external evidence.”",
+                    "You: “Lungs shredded like a moth’s wings, the heart an overripe peach, gall bladder like a popped gusher.”",
+                    "You: “Yet this man’s organs are pristine, untouched, free of the grime and offal that severed intestines have disgorged. Look Arthur, do you see a spot of fecal matter, a dash of digestive fluid? Either our killer knew what they were doing, or they invented windex for organs.”",
+                    "Arthur seemed a bit queasy, nauseous at my brilliance. This was a typical reaction to lesser minds in the face of genius, he’d have to learn to push through it.",
+                    "You: “That’s not even regarding the fat removed from the victim’s torso. I’m sure if you’ve ever prepared a good steak, you know how difficult it can be to remove the gristle from the good meat.”",
+                    "You: “Our killer was meticulous, likely working with a surgical implement or other precise instrument, removing the fat from the scene of the crime.",
+                    "Arthur: “Why would our killer bother to do that? What possible use would they have for a dozen pounds of fat?”",
+                    "You: “Twenty-six pounds to be precise Arthur, compare the victim’s weight from their driver’s driver's license with his recorded weight.”",
+                    "Arthur: “Twenty-six pounds then. Where you you even put that?”",
+                    "You: “Twenty-six pounds of human fat are easy enough to preserve. You could comfortably fit it within a gallon freezer bag, or a couple empty milk jugs.”",
+                    "Arthur: “Why-”",
+                    "You: “Would you keep it? Haven’t you seen fight club Arthur, perhaps our killer wanted to make a nice soap, think of the victim as they showered at night.”",
+                    "You: “You could make a nice candle perhaps, or use it as a nice ghee. Human flesh melts at 35 celsius, perfect for an olive oil or butter substitute. It also has an almost bacony aftertaste, so it’s wonderful for a morning fry up.”",
+                    "I couldn’t be sure if Arthur was impressed by my medical knowledge, or worldly experience, but he didn’t seem interested in continuing the conversation. Wise, my thoughts were too important to countenance further interruption."
                 ]
             }
         }
@@ -74,7 +90,13 @@
     "arms": {
         "observational_text": "lorem ipsum",
         "musings": {
-            "filler musing": {
+            "PERHAPS HE WAS TORTURED": {
+                "text": [
+                    "The scarring across his fingers indicates damage old enough to heal. Perhaps the victim was a fighter, professional or otherwise, but there are other possibilities.",
+                    "While the injuries seem indicative of fighting, a clever killer could perhaps disguise intentional injuries under that presumption.",
+                    "Deliberate bruising to the arms, reopened scabbing. The skin under the victim's fingernails should say for sure, if it’s the victim it’s likely from nail biting and self-inflicted injury.",
+                    "A more thorough examination would reveal how long it would have taken, whether this poor soul was locked away for hours or days. Repeatedly beaten in some perverse artistic expression."
+                ],
                 "requires": {
                     "killer": 0,
                     "lover": 0,
@@ -82,15 +104,29 @@
                     "dispassionate": 0
                 },
                 "increase_points": {
-                    "killer": 0,
+                    "killer": 1,
                     "lover": 0,
                     "humor": 0,
                     "dispassionate": 0
                 }
             },
             "arthur_response": [
-                "lorem",
-                "ipsum"
+                "You: “Watson, run the skin under the victim’s fingernails.”",
+                "Arthur: “You think it might be the killer?”",
+                "You: “Yes, or the Victim’s.”",
+                "Arthur: “The Victim’s?”",
+                "You: “If these wounds are inflicted by torture, as I suspect, it’s likely that the victim tore at their own skin in agony.”",
+                "Arthur: “But aren’t these injuries consistent with a fight?”",
+                "You: “They could be, but that could be a trick by out killer to hide the traces. You can cause plenty of harm with blunt force trauma.”",
+                "You: “Imagine, being trapped in the darkness, arms tied down in front of you. A masked figure enters every five minutes. He beats on your arms for five-ten minutes, with a pipe, a rock, his hands.”",
+                "Arthur: “Jesus.”",
+                "You: “You’re sore, tired, scared. You aren’t sure you’ll be able to use your hands again, mentally destroyed. You have to get into the victim’s head Arthur, feel what they were feeling.”",
+                "Arthur: “I’d really rather not.”",
+                "You: “Fear, Arthur, is something we come to know intimately in this work. Really, by the time it comes death is more of a release.”",
+                "Arthur: “I’m not sure that’s really professional.”",
+                "You: “What’s unprofessional is not giving the investigation the entirety of our observations. Our reports are an art Arthur, and art is filtered through the mind of that Author.”",
+                "You: “What we report say as much about us, as it does about the body.”",
+                "He seems confused, but he’ll understand in time. They always do."
             ]
         }
     },
