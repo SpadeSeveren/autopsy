@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const slash = process.platform === 'darwin' ? '/' : '\\';
 
 let points = {
     "killer": 0,
@@ -100,6 +101,15 @@ function displayMusings(bodyPart) {
         }
     })
     console.log(musings);
+}
+ 
+function createMusings(bodyPart) {
+    var musingArray = require(`..${slash}lib${slash}text.js`).musings(points, bodyPart);
+    console.log("Create musings called");
+    for(var musing in musingArray) {
+        var musingButton = document.createElement("button");
+        musingButton.innerHTML = musing;
+    }
 }
 
 function displayYesNo(bodyPart, musing) {

@@ -1,0 +1,25 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
+
+  /* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 40%;
+    height: 40%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+  }
