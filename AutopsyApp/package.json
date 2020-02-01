@@ -5,7 +5,9 @@
   "scripts": {
     "start": "electron ."
   },
-  "devDependencies": {
-    "electron": "^7.1.11"
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^7.1.11",
+    "jquery": "^3.4.1"
   }
 }

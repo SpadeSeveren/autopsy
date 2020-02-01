@@ -100,7 +100,7 @@ function musings (points, bodyPart) {
     Object.keys(data[bodyPart]).forEach(musingText => {
         let flag = true;
         Object.keys(points).forEach(type => {
-            if (data[bodyPart][musingText].requires[type] > points[type])
+            if (data[bodyPart].musings[musingText].requires[type] > points[type])
                 flag = false;
         });
         if (flag)
