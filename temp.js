@@ -1,0 +1,12 @@
+let text = "You: “The wound back here is an odd one, to say the least. Come take a look.”|Arthur leans in from the other side of the table, wincing slightly once he catches view of the matted tangle of blood and hair. He observes it for a moment, his eyes betraying some small fascination, then pulls himself gently away.|Arthur: “It looks like a wound right out of the textbook, frankly. I don’t think it could be any more clearly an object made a weapon in the spur of the moment; a crime born from passion turned sour; perhaps a lover’s quarrel turned deadly, with some femme fatale having had more than enough of our victim’s vagrant ways, turning in frustration to violen--”|You:“Arthur. If you’ll look a little more closely, you’ll see the ripped skin on the sides of the wound. These patterns extend further into the flesh, indicating some degree of serration and a relatively thin object.”|You: “Your theory is compelling, but impractical. Especially given the rest of the wounds on the body.”|Arthur gives a glance to the victim, seeming to wax poetic in his own world just a bit longer, trying to burn the image of his thorned rose into his memory. He writes something in his notes, his face downcast."
+
+console.log(text.split("|"));
+
+[
+    "You: “The wound back here is an odd one, to say the least. Come take a look.”",
+    "Arthur leans in from the other side of the table, wincing slightly once he catches view of the matted tangle of blood and hair. He observes it for a moment, his eyes betraying some small fascination, then pulls himself gently away.",
+    "Arthur: “It looks like a wound right out of the textbook, frankly. I don’t think it could be any more clearly an object made a weapon in the spur of the moment; a crime born from passion turned sour; perhaps a lover’s quarrel turned deadly, with some femme fatale having had more than enough of our victim’s vagrant ways, turning in frustration to violen--”",
+    "You:“Arthur. If you’ll look a little more closely, you’ll see the ripped skin on the sides of the wound. These patterns extend further into the flesh, indicating some degree of serration and a relatively thin object.”",
+    "You: “Your theory is compelling, but impractical. Especially given the rest of the wounds on the body.”",
+    "Arthur gives a glance to the victim, seeming to wax poetic in his own world just a bit longer, trying to burn the image of his thorned rose into his memory. He writes something in his notes, his face downcast."
+]
