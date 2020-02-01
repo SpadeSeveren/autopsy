@@ -1,23 +1,17 @@
 {
   "name": "autopsy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SpadeSeveren/autopsy.git"
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rootStart": "electron --no-sandbox ."
   },
-  "author": "Judah Bolz-Weber",
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^7.1.11",
+    "jquery": "^3.4.1"
+  },
+  "author": "Judah Bolz-Weber, Eddie Rogers",
   "license": "ISC",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {
-    "@types/node": "^13.1.4",
-    "file-loader": "^5.0.2",
-    "native-addon-loader": "^2.0.1",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.4",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  }
+  "description": ""
 }

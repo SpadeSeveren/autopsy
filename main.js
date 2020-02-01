@@ -83,7 +83,7 @@ function displayBody() {
 }
 
 function displayMusings(bodyPart) {
-    musings = require('../lib/text.js').musings(points, bodyPart);
+    musings = require('./lib/text.js').musings(points, bodyPart);
     musings.forEach(musing => {
         // display all musings in array as clickable options
         if (clicked) { // currently undefined
@@ -106,7 +106,7 @@ function displayYesNo(bodyPart, musing) {
 }
 
 function displayArthurResponse(bodyPart, musing) {
-    let response = require('../lib/text.js').fetchAurthurResponse(bodyPart, musing);
+    let response = require('./lib/text.js').fetchAurthurResponse(bodyPart, musing);
     // display response
     // display button to continue
     if (clicked) { // curently undefined
@@ -115,6 +115,6 @@ function displayArthurResponse(bodyPart, musing) {
 }
 
 function increasePoints(bodyPart, musing) {
-    points = require('../lib/text.js').increasePoints(points, bodyPart, musing);
+    points = require('./lib/text.js').increasePoints(points, bodyPart, musing);
     console.log(points);
 }
