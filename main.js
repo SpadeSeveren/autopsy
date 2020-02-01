@@ -5,7 +5,7 @@ let points = {
     "killer": 0,
     "lover": 0,
     "humor": 0,
-    "dispassionate": 0
+    "conspiracy": 0
 }
 
 let aurthurMood = 'normal';
