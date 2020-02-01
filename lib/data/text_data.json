@@ -38,7 +38,7 @@
                     "Watson looked irritated, but held his tongue and jotted something down on the clipboard. He would get over it, you didn’t get far here with thin skin."
                 ]
             },
-            "The head wound...": {
+            "The head wound…": {
                 "text": [
                     "The wound behind the ear is most likely the cause of death. The skull fractured into pieces small and sharp enough to pierce brain tissue, and there are some pieces still lodged into the tissue itself, despite the poor handling of the body.",
                     "That said, the shape of the wound is unclear. I don’t want to shave the head, but I might consider it if absolutely necessary.",
@@ -136,32 +136,38 @@
                     "lover": 0,
                     "humor": 0,
                     "conspiracy": 0
-                }
-            },
-            "arthur_response": [
-                "You: “Watson, run the skin under the victim’s fingernails.”",
-                "Arthur: “You think it might be the killer?”",
-                "You: “Yes, or the Victim’s.”",
-                "Arthur: “The Victim’s?”",
-                "You: “If these wounds are inflicted by torture, as I suspect, it’s likely that the victim tore at their own skin in agony.”",
-                "Arthur: “But aren’t these injuries consistent with a fight?”",
-                "You: “They could be, but that could be a trick by out killer to hide the traces. You can cause plenty of harm with blunt force trauma.”",
-                "You: “Imagine, being trapped in the darkness, arms tied down in front of you. A masked figure enters every five minutes. He beats on your arms for five-ten minutes, with a pipe, a rock, his hands.”",
-                "Arthur: “Jesus.”",
-                "You: “You’re sore, tired, scared. You aren’t sure you’ll be able to use your hands again, mentally destroyed. You have to get into the victim’s head Arthur, feel what they were feeling.”",
-                "Arthur: “I’d really rather not.”",
-                "You: “Fear, Arthur, is something we come to know intimately in this work. Really, by the time it comes death is more of a release.”",
-                "Arthur: “I’m not sure that’s really professional.”",
-                "You: “What’s unprofessional is not giving the investigation the entirety of our observations. Our reports are an art Arthur, and art is filtered through the mind of that Author.”",
-                "You: “What we report say as much about us, as it does about the body.”",
-                "He seems confused, but he’ll understand in time. They always do."
-            ]
+                },
+                "arthur_response": [
+                    "You: “Watson, run the skin under the victim’s fingernails.”",
+                    "Arthur: “You think it might be the killer?”",
+                    "You: “Yes, or the Victim’s.”",
+                    "Arthur: “The Victim’s?”",
+                    "You: “If these wounds are inflicted by torture, as I suspect, it’s likely that the victim tore at their own skin in agony.”",
+                    "Arthur: “But aren’t these injuries consistent with a fight?”",
+                    "You: “They could be, but that could be a trick by out killer to hide the traces. You can cause plenty of harm with blunt force trauma.”",
+                    "You: “Imagine, being trapped in the darkness, arms tied down in front of you. A masked figure enters every five minutes. He beats on your arms for five-ten minutes, with a pipe, a rock, his hands.”",
+                    "Arthur: “Jesus.”",
+                    "You: “You’re sore, tired, scared. You aren’t sure you’ll be able to use your hands again, mentally destroyed. You have to get into the victim’s head Arthur, feel what they were feeling.”",
+                    "Arthur: “I’d really rather not.”",
+                    "You: “Fear, Arthur, is something we come to know intimately in this work. Really, by the time it comes death is more of a release.”",
+                    "Arthur: “I’m not sure that’s really professional.”",
+                    "You: “What’s unprofessional is not giving the investigation the entirety of our observations. Our reports are an art Arthur, and art is filtered through the mind of that Author.”",
+                    "You: “What we report say as much about us, as it does about the body.”",
+                    "He seems confused, but he’ll understand in time. They always do."
+                ]
+            }
         }
     },
     "legs": {
         "observational_text": "lorem ipsum",
         "musings": {
-            "filler musing": {
+            "That tattoo is strange…": {
+                "text": [
+                    "That tattoo reminds me of one I’ve seen before, but I don’t recall where.",
+                    "It seems almost like a bad rendition of a Gaelic design, but the gothic-looking K is throwing me off.",
+                    "Too fancy to be a whim, not good enough to be deliberate. Definitely recently retouched.",
+                    "Seems almost intentionally misleading…"
+                ],
                 "requires": {
                     "killer": 0,
                     "lover": 0,
@@ -172,13 +178,51 @@
                     "killer": 0,
                     "lover": 0,
                     "humor": 0,
+                    "conspiracy": 1
+                },
+                "arthur_response": [
+                    "You: “Arthur.”",
+                    "Arthur: “Hm?”",
+                    "You: “What do you see in this tattoo?”",
+                    "Arthur “It’s kind of overdone, if you ask me. The linework is too much of a distraction from the intent of the piece, and the whole thing comes across as muddled.”",
+                    "You: “I’d agree. However, we’re looking at it empirically. It should be noted that the skin is scabbed in spots, and some of the hair on this leg is shaved. What’s important about that is that the victim cared enough about this piece to have it retouched. But who was he keeping appearances for? Himself? Or another?”",
+                    "Arthur: “I don’t think anyone would be keeping tabs on his tattoo, Doctor.”",
+                    "You: “Possibly. But we can’t rule it out.”",
+                    "Arthur writes something in his notes. I’ll need to come back to those later. For now, what else could this body be hiding?"
+                ]
+            }
+        }
+    },
+    "clipboard": {
+        "observational_text": "lorem ipsum",
+        "musings": {
+            "That pendant catches the eye…": {
+                "text": [
+                    "The pendant is made of a sturdy metal, harder than losing a child and colder than the rain at the funeral.",
+                    "Engraved into the face is a design that looks to feature an teardrop shape, or possibly an eye.",
+                    "An eye to catch the eye, perhaps? Or is it spiritually significant?"
+                ],
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
                     "conspiracy": 0
-                }
-            },
-            "arthur_response": [
-                "lorem",
-                "ipsum"
-            ]
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "conspiracy": 1
+                },
+                "arthur_response": [
+                    "You: “Arthur, make a note of the pendant’s design.”",
+                    "Arthur: “What’s the significance?”",
+                    "You: “Could be many things. We’re looking at something significant to the holder, so it might be of religious importance, or sentimental value. Any ideas?”",
+                    "Arthur: “I don’t know if it means much of anything. The design couldn’t be an eye, though, right? That would just be creepy.”",
+                    "You: “It could be. We may have to ask any remaining family about it.”",
+                    "Arthur makes a note to himself. Now, to the rest of the evidence."
+                ]
+            }
         }
     }
 }
