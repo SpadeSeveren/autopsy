@@ -1,8 +1,121 @@
 const { app, BrowserWindow } = require('electron')
 
+let points = {
+    "killer": 0,
+    "lover": 0,
+    "humor": 0,
+    "dispassionate": 0
+}
+
+let data =
+    {
+        "head": {
+            "observational_text": "lorem ipsum",
+            "musings": {
+                "filler musing": {
+                    "requires": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    },
+                    "increase_points": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    },
+                    "arthur_response": "lorem ipsum"
+                }
+            }
+        },
+        "torso": {
+            "observational_text": "lorem ipsum",
+            "musings": {
+                "filler musing": {
+                    "requires": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    },
+                    "increase_points": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    },
+                    "arthur_response": "lorem ipsum"
+                }
+            }
+        },
+        "arms": {
+            "observational_text": "lorem ipsum",
+            "musings": {
+                "filler musing": {
+                    "requires": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    },
+                    "increase_points": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    }
+                },
+                "arthur_response": "lorem ipsum"
+            }
+        },
+        "legs": {
+            "observational_text": "lorem ipsum",
+            "musings": {
+                "filler musing": {
+                    "requires": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    },
+                    "increase_points": {
+                        "killer": 0,
+                        "lover": 0,
+                        "humor": 0,
+                        "dispassionate": 0
+                    }
+                },
+                "arthur_response": "lorem ipsum"
+            }
+        }
+    }
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win
+
+function musings (points, bodyPart) {
+    let res = [];
+    Object.keys(data[bodyPart]).forEach(musingText => {
+        let flag = true;
+        Object.keys(points).forEach(type => {
+            if (data[bodyPart][musingText].requires[type] > points[type])
+                flag = false;
+        });
+        if (flag)
+            res.push(musingText);
+    });
+    return res;
+}
+
+function increasePoints (points, bodyPart, musing) {
+    let incP = data[bodyPart].musings[musing].increase_points;
+    Object.keys(incP).forEach(point => {
+        points[point] += incP[point];
+    });
+    return points;
+}
 
 function createWindow () {
   // Create the browser window.
@@ -51,17 +164,11 @@ app.on('activate', () => {
   }
 })
 
-//Params - ID of the canvas to be used
-function autopsy_instance(canvasID) {
-  this.init();
-}
+function click_callback(id)
+{
+    var output = increasePoints(points, 'head', 'filler musing');
 
-autopsy_instance.prototype.init = function () {
-    this.backgroundColor = "DDD0CD";
-    
-    var body = document.getElementsByTagName("BODY")[0];
-
-    body.backgroundColor = this.backgroundColor;
+    console.log(output);
 }
 
 // In this file you can include the rest of your app's specific main process
