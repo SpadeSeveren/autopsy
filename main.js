@@ -64,6 +64,25 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
 
+function musingButtonCallback() {
+
+    var container = document.getElementsByClassName("musing_table")[0];
+    container.parentNode.removeChild(container);
+
+    var textElement = document.createElement("P");
+    textElement.innerHTML = "Bottom Text";
+    textElement.className = "dialogue_text";
+
+    var newContainer = document.createElement("container");
+    newContainer.className = "dialogue_container";
+
+    var body = document.body;
+    newContainer.appendChild(textElement);
+
+    document.body.appendChild(newContainer);
+    
+}
+
 
 function testFunction() {
     // and load the index.html of the app.
@@ -107,15 +126,18 @@ function createMusings(bodyPart) {
     var musingArray = require(`..${slash}lib${slash}text.js`).musings(points, bodyPart);
     var container = document.getElementsByClassName("container")[0];
     var table = document.createElement("table");
+    table.id = "table";
+    table.className = "musing_table";
     musingArray.forEach(musing => {
-        var row = document.createElement("tr")
+        var row = document.createElement("th")
         var musingText = document.createElement("button");
         musingText.innerHTML = musing;
+        musingText.addEventListener("click", musingButtonCallback)
         musingText.className = "musing_button";
         row.appendChild(musingText);
         table.appendChild(row);
     })
-    
+    table.style = "width: 50%";
     container.appendChild(table);
 }
 

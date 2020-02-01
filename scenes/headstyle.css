@@ -1,11 +1,5 @@
 body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
+    background-color: white;
   }
 
   /* Container needed to position the button. Adjust the width as needed */
@@ -13,6 +7,8 @@ body {
     position: relative;
     width: 40%;
     height: 40%;
+    
+    transform: translate(75%, 0%);
   }
   
   /* Make the image responsive */
@@ -25,11 +21,36 @@ body {
   }
 
   /* Style the button and place it in the middle of the container/image */
-  .container .musing_button {
+  .container .musing_table {
     position: absolute;
-    top: 5%;
+    top: 15%;
     left: 50%;
     width: 15%;
     height: 10%;
     transform: translate(-50%, -50%);
+  }
+
+  .container .musing_button {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .musing_text {
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+    right: 50%;
+  }
+
+  .dialogue_container .musing_text {
+    position: relative;
+    width: 50%;
+  }
+
+  .dialogue_container {
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
   }

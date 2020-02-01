@@ -1,11 +1,5 @@
 body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
+    background-color: white;
   }
 
   /* Container needed to position the button. Adjust the width as needed */
@@ -31,7 +25,7 @@ body {
     position: absolute;
     opacity: 0.5;
     top: 55%; /* Increase to move down */
-    left: 82%; /* Increase to move right */
+    left: 90%; /* Increase to move right */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
