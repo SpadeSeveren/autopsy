@@ -2,7 +2,16 @@
     "head": {
         "observational_text": "lorem ipsum",
         "musings": {
-            "filler musing": {
+            "meticulous": {
+                "text": [
+                    "There are few points on the human skull that can be punctured in such a way. The skull is too thick for common weapons to penetrate without effort, and a stronger force would have ruined the victim’s face.",
+                    "Then why would the skull be cracked in such a way? Perhaps the victim was knocked into submission first, skull like a dollar store egg.",
+                    "Which means that the wound was delivered later, deliberately. You can tell from the bleed that it occurred pre-mortem, the knife an unwelcome guest to the victim’s cortex.",
+                    "Whatever the killer’s reasons, the effect was obvious. A death too quick to react to, reflected in the stoicism of the victim’s expression. Marble, paler than the surface upon which it rested, cold like old bathwater.",
+                    "A short dribble of blood falls from the cadaver’s mouth. The puncture wound is too far for the blood to naturally travel. It was placed there, intentionally.",
+                    "Red dye on buttercream skin, a red velvet cake of death.",
+                    "I was going to eat that cake."
+                ],
                 "requires": {
                     "killer": 0,
                     "lover": 0,
@@ -15,14 +24,34 @@
                     "humor": 0,
                     "dispassionate": 0
                 },
-                "arthur_response": ["lorem", "ipsum"]
+                "arthur_response": [
+                    "You: “The killer was meticulous, Arthur.”",
+                    "Arthur: “What makes you say that?”",
+                    "You: “See here. This wound was delivered precisely in such a way as to cause instant death without destroying the victim’s face. Further right and it would have punctured the victim’s cheek, further left and it might sever the victim’s spinal cord.”",
+                    "You: “Whoever our killer is, it’s clear that they’re incredibly skilled. Perhaps a professional assassin or medical professional.”",
+                    "Arthur: “Aren’t we getting ahead of ourselves Doctor?”",
+                    "Watson was squinting at the corpse’s visage, squinting a little as they took in the ravaged face.",
+                    "Arthur: “The injury is at the base of the neck. Surely you don’t need a PhD to slide a knife into a sleeping man’s vertebrae.”",
+                    "Internally I struggled to hold back a good chortle. Arthur was the kind of man who desperately aspired to be brighter than those with three times his experience and intellect.",
+                    "You: “Maybe to a layperson, but easier said than done. This was delivered with force Arthur, enough to kill the victim before he even realized what was happening. Look at his face Arthur, this is a man who hadn’t realized how quick their end was approaching.”",
+                    "You: “Even you must know enough to be impressed by such a clean murder. With every hack job, and mugging gone wrong that passes through here it’s nice to see someone with a hint of professionalism.”",
+                    "Watson looked irritated, but held his tongue and jotted something down on the clipboard. He would get over it, you didn’t get far here with thin skin."
+                ]
             }
         }
     },
     "torso": {
         "observational_text": "lorem ipsum",
         "musings": {
-            "filler musing": {
+            "thorough": {
+                "text": [
+                    "The killer’s hands have been over every inch of this body.",
+                    "Their scrambling of the victim’s intestines was almost total, but the rest of the organs remained undisturbed. This kind of cut would require an understanding of the body that moved beyond a nursing student’s anatomy class.",
+                    "If the slim torso is any indication, they removed more than a little fat from the body, without rendering the torso a bloody soup. Even I would have trouble performing a post-mortem liposuction, much less one starting with a single central incision.",
+                    "What would the killer have looked like, crouched over their macabre work for hours, performing to an operating theater of the mind.",
+                    "Diligently separating the connective tissue, like a seamstress laying out cloth. Pulling out the organs gingerly, before dashing them to the barren ground and going through them like a rabid dog.",
+                    "What knowledge did you divine from those entrails I wonder?"
+                ],
                 "requires": {
                     "killer": 0,
                     "lover": 0,
@@ -35,7 +64,10 @@
                     "humor": 0,
                     "dispassionate": 0
                 },
-                "arthur_response": ["lorem", "ipsum"]
+                "arthur_response": [
+                    "lorem",
+                    "ipsum"
+                ]
             }
         }
     },
@@ -56,7 +88,10 @@
                     "dispassionate": 0
                 }
             },
-            "arthur_response": ["lorem", "ipsum"]
+            "arthur_response": [
+                "lorem",
+                "ipsum"
+            ]
         }
     },
     "legs": {
@@ -76,7 +111,10 @@
                     "dispassionate": 0
                 }
             },
-            "arthur_response": ["lorem", "ipsum"]
+            "arthur_response": [
+                "lorem",
+                "ipsum"
+            ]
         }
     }
 }
