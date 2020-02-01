@@ -62,20 +62,26 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
 
+
+function testFunction() {
+    console.log('HERE');
+}
+
+
 function displayBody() {
-    // display clickable items for head
+    // display clickable item for head
     if(clicked) { // currently undefined
         displayMusings('head');
     }
-    // display clickable items for torso
+    // display clickable item for torso
     if(clicked) { // currently undefined
         displayMusings('torso');
     }
-    // display clickable items for arms
+    // display clickable item for arms
     if(clicked) { // currently undefined
         displayMusings('arms');
     }
-    // display clickable items for legs
+    // display clickable item for legs
     if(clicked) { // currently undefined
         displayMusings('legs');
     }
@@ -97,8 +103,8 @@ function displayYesNo(bodyPart, musing) {
     // display musing and yes/no options
 
     if (yes) { // currently undefined
-        displayArthurResponse(bodyPart, musing);
         increasePoints(bodyPart, musing);
+        displayArthurResponse(bodyPart, musing);
     }
     else {
         displayMusings(bodyPart);
