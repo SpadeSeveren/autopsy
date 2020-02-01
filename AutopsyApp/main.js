@@ -1,4 +1,11 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
+
+let points = {
+    "killer": 0,
+    "lover": 0,
+    "humor": 0,
+    "dispassionate": 0
+}
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -51,11 +58,63 @@ app.on('activate', () => {
     }
 })
 
-function click_callback(id) {
-    console.log(require('../lib/text.js').increasePoints(require('../lib/data/points.json'), 'head', 'filler musing'));
-
-    console.log(require('../lib/text.js').musings(require('../lib/data/points.json'), 'head'));
-}
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+function displayBody() {
+    // display clickable items for head
+    if(clicked) { // currently undefined
+        displayMusings('head');
+    }
+    // display clickable items for torso
+    if(clicked) { // currently undefined
+        displayMusings('torso');
+    }
+    // display clickable items for arms
+    if(clicked) { // currently undefined
+        displayMusings('arms');
+    }
+    // display clickable items for legs
+    if(clicked) { // currently undefined
+        displayMusings('legs');
+    }
+
+}
+
+function displayMusings(bodyPart) {
+    musings = require('../lib/text.js').musings(points, bodyPart);
+    musings.forEach(musing => {
+        // display all musings in array as clickable options
+        if (clicked) { // currently undefined
+            displayYesNo(bodyPart, musing);
+        }
+    })
+    console.log(musings);
+}
+
+function displayYesNo(bodyPart, musing) {
+    // display musing and yes/no options
+
+    if (yes) { // currently undefined
+        displayArthurResponse(bodyPart, musing);
+        increasePoints(bodyPart, musing);
+    }
+    else {
+        displayMusings(bodyPart);
+    }
+}
+
+function displayArthurResponse(bodyPart, musing) {
+    let res = require('../lib/text.js').fetchAurthurResponse(bodyPart, musing);
+    // display res
+    // display button to continue
+    if (clicked) { // curently undefined
+        displayBody();
+    }
+}
+
+function increasePoints(bodyPart, musing) {
+    points = require('../lib/text.js').increasePoints(points, bodyPart, musing);
+    console.log(points);
+}
