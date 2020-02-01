@@ -1,66 +1,82 @@
 {
     "head": {
-        "filler musing": {
-            "requires": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
-            },
-            "increase_points": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
+        "observational_text": "lorem ipsum",
+        "musings": {
+            "filler musing": {
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                },
+                "arthur_response": "lorem ipsum"
             }
         }
     },
     "torso": {
-        "filler musing": {
-            "requires": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
-            },
-            "increase_points": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
+        "observational_text": "lorem ipsum",
+        "musings": {
+            "filler musing": {
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                },
+                "arthur_response": "lorem ipsum"
             }
         }
     },
     "arms": {
-        "filler musing": {
-            "requires": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
+        "observational_text": "lorem ipsum",
+        "musings": {
+            "filler musing": {
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                }
             },
-            "increase_points": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
-            }
+            "arthur_response": "lorem ipsum"
         }
     },
     "legs": {
-        "filler musing": {
-            "requires": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
+        "observational_text": "lorem ipsum",
+        "musings": {
+            "filler musing": {
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 0,
+                    "dispassionate": 0
+                }
             },
-            "increase_points": {
-                "killer": 0,
-                "lover": 0,
-                "humor": 0,
-                "dispassionate": 0
-            }
+            "arthur_response": "lorem ipsum"
         }
     }
 }
