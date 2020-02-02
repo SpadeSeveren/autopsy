@@ -46,7 +46,7 @@ body {
 
   .dialogue_container {
     opacity: 0.5;
-    width: 100%;
+    width: 40%;
     position: absolute;
-    transform: translate(25%, 0%);
+    transform: translate(75%, 0%);
   }

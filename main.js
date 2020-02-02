@@ -69,9 +69,16 @@ function musingButtonCallback(bodyPart, musing) {
     var container = document.getElementsByClassName("musing_table")[0];
     container.parentNode.removeChild(container);
 
-    var textElement = document.createElement("P");
-    textElement.innerHTML = require(`..${slash}lib${slash}text.js`).musings(points, bodyPart);
+    var textElement = document.createElement("button");
+    console.log(this.bodyPart);
+    console.log(this.innerHTML);
+    textElement.innerHTML = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.innerHTML)[0];
+    textElement.musing = this.innerHTML;
+    textElement.count = 0;
+    textElement.bodyPart = this.bodyPart;
+    textElement.dialogueLength = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.innerHTML).length;
     textElement.className = "dialogue_text";
+    textElement.addEventListener("click", advanceDialogue);
 
     var newContainer = document.createElement("container");
     newContainer.className = "dialogue_container";
@@ -81,6 +88,16 @@ function musingButtonCallback(bodyPart, musing) {
 
     document.body.appendChild(newContainer);
     
+}
+
+function advanceDialogue() {
+    if(this.count == this.dialogueLength) {
+        
+    }
+    else {
+        this.count++;
+        this.innerHTML = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.musing)[this.count];
+    }
 }
 
 
@@ -136,8 +153,9 @@ function createMusings(bodyPart) {
         var row = document.createElement("th")
         var musingText = document.createElement("button");
         musingText.innerHTML = musing;
-        musingText.addEventListener("click", musingButtonCallback(bodyPart, musing));
+        musingText.addEventListener("click", musingButtonCallback);
         musingText.className = "musing_button";
+        musingText.bodyPart = bodyPart;
         row.appendChild(musingText);
         table.appendChild(row);
     })
