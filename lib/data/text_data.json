@@ -1,35 +1,9 @@
 {
     "head": {
-        "observational_text": ">Clumps of wiry black hair cling to the side of the victim’s head. Several loose curls have been caked with blood, effectively gluing them down. It’s difficult to tell if the victim’s hair is greasy and unkempt, or grown dirty since the murder. \n>The victim’s face looks peaceful, as if he’s sleeping and will wake up at any moment. Despite the injuries on the rest of his body, his face remains relatively undamaged. \n>His facial features are soft. A rounded chin and flat cheeks that haven’t quite lost all their baby fat. Some dirt is smudged on the left side of his face, just below the cheekbone. \n>Although his body has since picked up some dirt and grime, his complexion remains relatively clear. The color has drained from his face, highlighting just how smooth his skin is. Whatever poor choices led to his death clearly didn’t involve a flawed skincare routine. \n>The head injury is a brutal one. Although it’s relatively fresh, bits of blood have begun to coagulate in his hair and pool around the injury. The bleeding and hair make it difficult to determine the exact dimensions of the wound, but it seems to extend from behind his ear up towards his scalp. \n>Whatever impact injured his head was delivered with enough force to partially crack his skull, giving his overall head shape an uneven and somewhat flat appearance. Clumps of loose skin around the point of contact suggest the possibility of a serrated weapon, but it will ultimately be impossible to determine the exact dimensions without shaving his head and compromising potential trace evidence.\n>Several smaller tears are present along the back of the scalp. These partially scabbed injuries, along with missing strands of hair suggest that bits of his hair were forcefully torn out prior to death.",
+        "observational_text": ">Clumps of wiry black hair cling to the side of the victim’s head. Several loose curls have been caked with blood, effectively gluing them down. It’s difficult to tell if the victim’s hair is greasy and unkempt, or grown dirty since the murder. <br />>The victim’s face looks peaceful, as if he’s sleeping and will wake up at any moment. Despite the injuries on the rest of his body, his face remains relatively undamaged. <br />>His facial features are soft. A rounded chin and flat cheeks that haven’t quite lost all their baby fat. Some dirt is smudged on the left side of his face, just below the cheekbone. <br />>Although his body has since picked up some dirt and grime, his complexion remains relatively clear. The color has drained from his face, highlighting just how smooth his skin is. Whatever poor choices led to his death clearly didn’t involve a flawed skincare routine. <br />>The head injury is a brutal one. Although it’s relatively fresh, bits of blood have begun to coagulate in his hair and pool around the injury. The bleeding and hair make it difficult to determine the exact dimensions of the wound, but it seems to extend from behind his ear up towards his scalp. <br />>Whatever impact injured his head was delivered with enough force to partially crack his skull, giving his overall head shape an uneven and somewhat flat appearance. Clumps of loose skin around the point of contact suggest the possibility of a serrated weapon, but it will ultimately be impossible to determine the exact dimensions without shaving his head and compromising potential trace evidence.<br />>Several smaller tears are present along the back of the scalp. These partially scabbed injuries, along with missing strands of hair suggest that bits of his hair were forcefully torn out prior to death.",
         "musings": {
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate magnam corrupti, impedit eius quam quidem.": {
-                "path": "none",
-                "text": [
-                    "There are few points on the human skull that can be punctured in such a way. The skull is too thick for common weapons to penetrate without effort, and a stronger force would have ruined the victim’s face.",
-                    "Then why would the skull be cracked in such a way? Perhaps the victim was knocked into submission first, skull like a dollar store egg.",
-                    "Which means that the wound was delivered later, deliberately. You can tell from the bleed that it occurred pre-mortem, the knife an unwelcome guest to the victim’s cortex.",
-                    "Whatever the killer’s reasons, the effect was obvious. A death too quick to react to, reflected in the stoicism of the victim’s expression. Marble, paler than the surface upon which it rested, cold like old bathwater.",
-                    "A short dribble of blood falls from the cadaver’s mouth. The puncture wound is too far for the blood to naturally travel. It was placed there, intentionally.",
-                    "Red dye on buttercream skin, a red velvet cake of death.",
-                    "I was going to eat that cake."
-                ],
-                "requires": 0,
-                "arthur_response": [
-                    "You: “The killer was meticulous, Arthur.”",
-                    "Arthur: “What makes you say that?”",
-                    "You: “See here. This wound was delivered precisely in such a way as to cause instant death without destroying the victim’s face. Further right and it would have punctured the victim’s cheek, further left and it might sever the victim’s spinal cord.”",
-                    "You: “Whoever our killer is, it’s clear that they’re incredibly skilled. Perhaps a professional assassin or medical professional.”",
-                    "Arthur: “Aren’t we getting ahead of ourselves Doctor?”",
-                    "Watson was squinting at the corpse’s visage, squinting a little as they took in the ravaged face.",
-                    "Arthur: “The injury is at the base of the neck. Surely you don’t need a PhD to slide a knife into a sleeping man’s vertebrae.”",
-                    "Internally I struggled to hold back a good chortle. Arthur was the kind of man who desperately aspired to be brighter than those with three times his experience and intellect.",
-                    "You: “Maybe to a layperson, but easier said than done. This was delivered with force Arthur, enough to kill the victim before he even realized what was happening. Look at his face Arthur, this is a man who hadn’t realized how quick their end was approaching.”",
-                    "You: “Even you must know enough to be impressed by such a clean murder. With every hack job, and mugging gone wrong that passes through here it’s nice to see someone with a hint of professionalism.”",
-                    "Watson looked irritated, but held his tongue and jotted something down on the clipboard. He would get over it, you didn’t get far here with thin skin."
-                ]
-
-            },
             "Meticulous": {
+                "arthur": "normal",
                 "path": "killer",
                 "text": [
                     "There are few points on the human skull that can be punctured in such a way. The skull is too thick for common weapons to penetrate without effort, and a stronger force would have ruined the victim’s face.",
@@ -56,6 +30,7 @@
                 ]
             },
             "The head wound…": {
+                "arthur": "goth",
                 "path": "conspiracy",
                 "text": [
                     "The wound behind the ear is most likely the cause of death. The skull fractured into pieces small and sharp enough to pierce brain tissue, and there are some pieces still lodged into the tissue itself, despite the poor handling of the body.",
@@ -165,6 +140,7 @@
                 ]
             },
             "The head wound was caused by…": {
+                "arthur": "normal",
                 "path": "conspiracy",
                 "text": [
                     "I know what the pattern on the back of the head looks like. I’ve seen this wound before, but not on humans…",
@@ -212,9 +188,10 @@
         }
     },
     "torso": {
-        "observational_text": ">Victim has a single laceration spanning from just below the sternum to just below the navel. Sole surface-level injury in this area.\n>The cut is deep, like a thought that lingers just a little too long. Intestines were found outside the body, and have been partially replaced for this procedure.\n>Intestines themselves are shredded and almost unrecognizable. Faithful reconstruction is impossible, but it can be noted that a significant amount of tissue is missing.\n>Torso is muscular, but not extreme. Victim might have worked in labor.\n>Torso as a whole is trim, lacking in fat. Feature is incongruent with remainder of body, which has a healthy level of fat.  \n>Internal organs remain largely undisturbed, save for intestines. White spots appear to populate the liver just beneath the surface of the flesh, like dying stars in a dim, red universe.",
+        "observational_text": ">Victim has a single laceration spanning from just below the sternum to just below the navel. Sole surface-level injury in this area.<br />>The cut is deep, like a thought that lingers just a little too long. Intestines were found outside the body, and have been partially replaced for this procedure.<br />>Intestines themselves are shredded and almost unrecognizable. Faithful reconstruction is impossible, but it can be noted that a significant amount of tissue is missing.<br />>Torso is muscular, but not extreme. Victim might have worked in labor.<br />>Torso as a whole is trim, lacking in fat. Feature is incongruent with remainder of body, which has a healthy level of fat.  <br />>Internal organs remain largely undisturbed, save for intestines. White spots appear to populate the liver just beneath the surface of the flesh, like dying stars in a dim, red universe.",
         "musings": {
             "thorough": {
+                "arthur": "normal",
                 "path": "killer",
                 "text": [
                     "The killer’s hands have been over every inch of this body.",
@@ -247,6 +224,7 @@
                 ]
             },
             "The internal organs aren’t quite right…": {
+                "arthur": "normal",
                 "path": "conspiracy",
                 "text": [
                     "I don’t like the way these organs are sitting; they seem too big for the abdominal cavity. They’re pushing on the diaphragm like rain to a dam, ready to burst through and funnel the sinew of these impostor organs through the cracks like pasta dough through a strainer.",
@@ -272,6 +250,7 @@
                 ]
             },
             "The stab wound…": {
+                "arthur": "normal",
                 "path": "conspiracy",
                 "text": [
                     "The laceration in the abdomen appears consistent with a stab wound that was twisted in the gut and wrenched downward. Based on the tearing in the flesh, the weapon used could have been anywhere from 7 to 9 inches long, and it was sharp.",
@@ -362,9 +341,10 @@
         }
     },
     "arms": {
-        "observational_text": ">Victim has several injuries along his arms consistent with a struggle, but the overall chaotic nature of the body makes it difficult to tell which ones are recent.\n>The victim has scars dotting the ridges of his knuckles. While visible, they aren’t pronounced enough to tell the source.\n>Blood on the victim’s hands suggest injuries along the knuckles that recently reopened. Patches of blood have dried on the inside of the victim’s fingers which appear to be from this source.\n>Bruising along the victim’s forearms consistent with blunt impact. These bruises have bloomed into vibrant blue splotches that cover his arms like patchwork flowers. Webs of burst capillaries indicate that the trauma was severe, but the blooming makes it difficult to tell the initial dimensions of the impact.\n>The victim’s fingernails are jagged and uneven, suggesting that he frequently bit his nails. Trace organic matter seems to be stuck under the fingernails and caked with dried blood. It is unclear if the blood belongs to the victim or another party.\n>One of the victim’s fingernails--his left ring finger--has been torn clean off. The skin underneath is raw and agitated.\n>The thumb on his left hand is badly injured, and appears to be bent out of shape. It protrudes at an odd angle, having been broken just above the middle joint. Discoloration is especially pronounced.\n>The victim’s left arm is noticeably more discolored than the other. The uncertain TOD widens the potential range of factors that could cause this. While the most likely scenario is that the arms were unevenly tan, it is impossible to determine without more extensive examination.\n>Likely irrelevant, but the victim’s left arm is 0.74 inches longer than his right. Neat!",
+        "observational_text": ">Victim has several injuries along his arms consistent with a struggle, but the overall chaotic nature of the body makes it difficult to tell which ones are recent.<br />>The victim has scars dotting the ridges of his knuckles. While visible, they aren’t pronounced enough to tell the source.<br />>Blood on the victim’s hands suggest injuries along the knuckles that recently reopened. Patches of blood have dried on the inside of the victim’s fingers which appear to be from this source.<br />>Bruising along the victim’s forearms consistent with blunt impact. These bruises have bloomed into vibrant blue splotches that cover his arms like patchwork flowers. Webs of burst capillaries indicate that the trauma was severe, but the blooming makes it difficult to tell the initial dimensions of the impact.<br />>The victim’s fingernails are jagged and uneven, suggesting that he frequently bit his nails. Trace organic matter seems to be stuck under the fingernails and caked with dried blood. It is unclear if the blood belongs to the victim or another party.<br />>One of the victim’s fingernails--his left ring finger--has been torn clean off. The skin underneath is raw and agitated.<br />>The thumb on his left hand is badly injured, and appears to be bent out of shape. It protrudes at an odd angle, having been broken just above the middle joint. Discoloration is especially pronounced.<br />>The victim’s left arm is noticeably more discolored than the other. The uncertain TOD widens the potential range of factors that could cause this. While the most likely scenario is that the arms were unevenly tan, it is impossible to determine without more extensive examination.<br />>Likely irrelevant, but the victim’s left arm is 0.74 inches longer than his right. Neat!",
         "musings": {
             "PERHAPS HE WAS TORTURED": {
+                "arthur": "normal",
                 "path": "killer",
                 "text": [
                     "The scarring across his fingers indicates damage old enough to heal. Perhaps the victim was a fighter, professional or otherwise, but there are other possibilities.",
@@ -393,6 +373,7 @@
                 ]
             },
             "The broken thumb…": {
+                "arthur": "normal",
                 "path": "conspiracy",
                 "text": [
                     "The way the thumb is broken, it seems our victim may have been held against his will, and attempted to escape.",
@@ -455,7 +436,7 @@
                     "Was this from the murder? Or an unrelated event beforehand?",
                     "It could even be a defense wound, raising his arms to protect himself from an attacking blow. That is definitely more likely.",
                     "I should run this by Arthur before I make a final decision."
-                  ],
+                ],
                 "requires": 1,
                 "arthur_response": [
                     "You: “Okay, this extended staring is doing nothing to progress my examination. Do you have any theories on how this bruising was caused?”",
@@ -466,14 +447,15 @@
                     "Arthur: “I’m sorry Doctor, I know this can’t be easy. I also don’t know how to treat this other than I have have been taught to do in an autopsy.”",
                     "Arthur: “Can you possibly think of this as just another body? Just another case to solve?”",
                     "You: “I can’t, that would be disrespecting the reason I went into this in the first place. Let’s just continue the examination for now.”"
-                  ]
+                ]
             }
         }
     },
     "legs": {
-        "observational_text": ">Skin of the victim’s legs shows signs of impact, but does not have pronounced injuries.\n>His left knee shows faded incision marks, the injury lost to time like so many of my past loves. A possible sign of reconstructive surgery, human hands knitting together what cellular division could not. Sometimes I wonder what my life would have been like, had these hands been turned towards restructuring the living instead of examining the dead.\n>The most notable feature on the victim’s legs is a tattoo that occupies most of their calf. While the tattoo looks lightly faded, the hair around it has been shaved and a few points are scabbing over, suggesting it has recently been touched up.\n>The tattoo design is not familiar to any investigating police officers, but the recent additions may help us identify the tattoo artist and--by extension--the victim.\n>This tattoo in question is a slightly faded custom design done in single-color common shading ink. The design appears consistently faded which suggests it healed improperly the first time but such information is likely irrelevant to the investigation.\n>Although the source is unknown, the stylistic designs on the tattoo are reminiscent of a band logo. A large gothic ‘K’ sits in the middle of a celtic web in the center of two flourishing wings. Several rings of runic lettering encircle the logo although these appear to be pure direction instead of any translated meaning.\n>While the wings have a similar structure to common depictions of angel wings, they are illustrated using dozens of angular curved lines instead of illustrated feathers. The wingtips feature rather distinctive tapering, suggesting that they’re supposed to look like blade edges.\n>The ‘K’ logo itself is written in a faux-middle ages gothic lettering. To be more specific, it appears to have come from a common font based around Bavarian-Germanic title characters.\n>The entire tattoo appears to have all been done at once, suggesting that this is a single cohesive design with no modifications besides the recent line touch ups.",
+        "observational_text": ">Skin of the victim’s legs shows signs of impact, but does not have pronounced injuries.<br />>His left knee shows faded incision marks, the injury lost to time like so many of my past loves. A possible sign of reconstructive surgery, human hands knitting together what cellular division could not. Sometimes I wonder what my life would have been like, had these hands been turned towards restructuring the living instead of examining the dead.<br />>The most notable feature on the victim’s legs is a tattoo that occupies most of their calf. While the tattoo looks lightly faded, the hair around it has been shaved and a few points are scabbing over, suggesting it has recently been touched up.<br />>The tattoo design is not familiar to any investigating police officers, but the recent additions may help us identify the tattoo artist and--by extension--the victim.<br />>This tattoo in question is a slightly faded custom design done in single-color common shading ink. The design appears consistently faded which suggests it healed improperly the first time but such information is likely irrelevant to the investigation.<br />>Although the source is unknown, the stylistic designs on the tattoo are reminiscent of a band logo. A large gothic ‘K’ sits in the middle of a celtic web in the center of two flourishing wings. Several rings of runic lettering encircle the logo although these appear to be pure direction instead of any translated meaning.<br />>While the wings have a similar structure to common depictions of angel wings, they are illustrated using dozens of angular curved lines instead of illustrated feathers. The wingtips feature rather distinctive tapering, suggesting that they’re supposed to look like blade edges.<br />>The ‘K’ logo itself is written in a faux-middle ages gothic lettering. To be more specific, it appears to have come from a common font based around Bavarian-Germanic title characters.<br />>The entire tattoo appears to have all been done at once, suggesting that this is a single cohesive design with no modifications besides the recent line touch ups.",
         "musings": {
             "That tattoo is strange…": {
+                "arthur": "normal",
                 "path": "conspiracy",
                 "text": [
                     "That tattoo reminds me of one I’ve seen before, but I don’t recall where.",
@@ -540,9 +522,10 @@
         }
     },
     "clipboard": {
-        "observational_text": ">Weight: 200lbs\n>Height: 5’10”\n>Sex: Male\n>Hair Color: Black\n>Hair Length: Medium\n>Eye Color: Blue\n>Age: Appears 30-35\n>Clothing: Plain business clothing. Blue collared shirt with vertical stripes, brown belt, khaki pants, white undershirt.\n>Valuables: no jewelry worn, pendant found in left-hand front pocket.",
+        "observational_text": ">Weight: 200lbs<br />>Height: 5’10”<br />>Sex: Male<br />>Hair Color: Black<br />>Hair Length: Medium<br />>Eye Color: Blue<br />>Age: Appears 30-35<br />>Clothing: Plain business clothing. Blue collared shirt with vertical stripes, brown belt, khaki pants, white undershirt.<br />>Valuables: no jewelry worn, pendant found in left-hand front pocket.",
         "musings": {
             "That pendant catches the eye…": {
+                "arthur": "normal",
                 "path": "conspiracy",
                 "text": [
                     "The pendant is made of a sturdy metal, harder than losing a child and colder than the rain at the funeral.",
