@@ -43,7 +43,12 @@
             "The sensation of cold steel energizes us, supercharging the air as we descend into the inky blackness of ultra goth passion…"
         ]
     },
-    "conspiracy": {},
+    "conspiracy": {
+        "text": [
+            "lorem",
+            "ipsum"
+        ]
+    },
     "lover": {
         "text": [
             "The murderer is named Theodore Bernard, a serial killer in the area, my love wasn’t his first victim but I made damn sure he would be the last. The killing blow was delivered to the skull with large garden shears.",
