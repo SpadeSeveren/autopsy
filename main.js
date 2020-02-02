@@ -88,6 +88,32 @@ function musingButtonCallback(bodyPart, musing) {
     
 }
 
+function dialogueButtonCallback(bodyPart, musing) {
+
+    var container = document.getElementsByClassName("yes_no_table")[0];
+    container.parentNode.removeChild(container);
+
+    console.log(bodyPart);
+    console.log(musing);
+    var textElement = document.createElement("button");
+    textElement.innerHTML = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing)[0];
+    textElement.musing = musing;
+    textElement.count = 0;
+    textElement.bodyPart = bodyPart;
+    textElement.dialogueLength = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing).length;
+    textElement.className = "dialogue_text";
+    textElement.addEventListener("click", advanceArthurDialogue);
+
+    var newContainer = document.createElement("container");
+    newContainer.className = "dialogue_container";
+
+    var body = document.body;
+    newContainer.appendChild(textElement);
+
+    document.body.appendChild(newContainer);
+    
+}
+
 function advanceDialogue() {
     if(this.count == this.dialogueLength - 1) {
         promptDialogue(this);
@@ -95,6 +121,16 @@ function advanceDialogue() {
     else {
         this.count++;
         this.innerHTML = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.musing)[this.count];
+    }
+}
+
+function advanceArthurDialogue() {
+    if(this.count == this.dialogueLength - 1) {
+        
+    }
+    else {
+        this.count++;
+        this.innerHTML = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(this.bodyPart, this.musing)[this.count];
     }
 }
 
@@ -112,6 +148,7 @@ function promptDialogue(element){
     container.appendChild(prompt);
 
     var table = document.createElement("table");
+    table.className = "yes_no_table";
     var row = document.createElement("th");
     
     var yesButton = document.createElement("button");
@@ -120,6 +157,10 @@ function promptDialogue(element){
     noButton.innerHTML = "No";
     noButton.onclick = () => {
         loadMusings(element.bodyPart);
+    };
+
+    yesButton.onclick = () => {
+        dialogueButtonCallback(element.bodyPart, element.musing);
     };
     row.appendChild(yesButton);
     row.appendChild(noButton);
