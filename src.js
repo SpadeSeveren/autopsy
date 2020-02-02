@@ -9,7 +9,7 @@ function musingButtonCallback(bodyPart, musing) {
 
     var container = document.getElementsByClassName("musing_table")[0];
     container.parentNode.removeChild(container);
-
+    
     var textElement = document.createElement("button");
     textElement.innerHTML = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.innerHTML)[0];
     textElement.musing = this.innerHTML;
@@ -217,16 +217,7 @@ function checkEnd(){
     console.log(end);
     if(end !== false){
         console.log("end achieved");
-        /*switch(end) {
-            case "humor":
-                window.location.href = "./humorEnding.html";
-            case "conspiracy":
-                window.location.href = "./conspiracyEnding.html";
-            case "lover":
-                window.location.href = "./loverEnding.html";
-            case "killer":
-                window.location.href = "./humorEnding.html";
-        }*/
+
         if(end === "humor") {
             window.location.href = "./humorEnding.html";
         }
