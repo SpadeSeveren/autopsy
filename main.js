@@ -93,7 +93,7 @@ function musingButtonCallback(bodyPart, musing) {
     newContainer.appendChild(textElement);
 
     document.body.appendChild(newContainer);
-    
+
 }
 
 function dialogueButtonCallback(bodyPart, musing) {
@@ -119,11 +119,11 @@ function dialogueButtonCallback(bodyPart, musing) {
     newContainer.appendChild(textElement);
 
     document.body.appendChild(newContainer);
-    
+
 }
 
 function advanceDialogue() {
-    if(this.count == this.dialogueLength - 1) {
+    if (this.count == this.dialogueLength - 1) {
         promptDialogue(this);
     }
     else {
@@ -133,10 +133,15 @@ function advanceDialogue() {
 }
 
 function advanceArthurDialogue() {
-    if(this.count == this.dialogueLength - 1) {
+    if (this.count == this.dialogueLength - 1) {
         points = require(`..${slash}lib${slash}text.js`).increasePoints(points, this.bodyPart, this.musing);
+        available[this.bodyPart] = false;
+        console.log('available')
+        console.log(available)
         this.innerHTML = "Return to the full-body examination";
-
+        this.onclick = () => {
+            loadMusings("body");
+        };
     }
     else {
         this.count++;
@@ -144,11 +149,11 @@ function advanceArthurDialogue() {
     }
 }
 
-function loadMusings(bodyPart){
-    window.location.href=`./${bodyPart}.html`;
+function loadMusings(bodyPart) {
+    window.location.href = `./${bodyPart}.html`;
 }
 
-function promptDialogue(element){
+function promptDialogue(element) {
 
     element.parentNode.removeChild(element);
 
@@ -160,7 +165,7 @@ function promptDialogue(element){
     var table = document.createElement("table");
     table.className = "yes_no_table";
     var row = document.createElement("th");
-    
+
     var yesButton = document.createElement("button");
     var noButton = document.createElement("button");
     yesButton.innerHTML = "Yes";
@@ -177,7 +182,7 @@ function promptDialogue(element){
     table.appendChild(row);
     container.appendChild(table);
 }
- 
+
 function createMusings(bodyPart) {
     var musingArray = require(`..${slash}lib${slash}text.js`).musings(points, bodyPart);
     var container = document.getElementsByClassName("container")[0];
@@ -205,6 +210,57 @@ function createMusings(bodyPart) {
 function increasePoints(bodyPart, musing) {
     points = require('./lib/text.js').increasePoints(points, bodyPart, musing);
     console.log(points);
+}
+
+function createBodyButtons() {
+    console.log(available);
+    if (available.head) {
+        var headButton = document.createElement("button");
+        headButton.className = "headButton";
+        headButton.onclick = () => {
+            loadMusings("head");
+        };
+        var container = document.getElementsByClassName("container")[0];
+        container.appendChild(headButton);
+    }
+    if (available.torso) {
+        var torsoButton = document.createElement("button");
+        torsoButton.className = "torsoButton";
+        torsoButton.onclick = () => {
+            loadMusings("torso");
+        };
+        var container = document.getElementsByClassName("container")[0];
+        container.appendChild(torsoButton);
+    }
+    if (available.arms) {
+        var armsButton = document.createElement("button");
+        armsButton.className = "armsButton";
+        armsButton.onclick = () => {
+            loadMusings("arms");
+        };
+        var container = document.getElementsByClassName("container")[0];
+        container.appendChild(armsButton);
+    }
+    if (available.legs) {
+        var legsButton = document.createElement("button");
+        legsButton.className = "legsButton";
+        legsButton.onclick = () => {
+            loadMusings("legs");
+        };
+        var container = document.getElementsByClassName("container")[0];
+        container.appendChild(legsButton);
+        console.log(legsButton);
+    }
+    if (available.clipboard) {
+        var clipboardButton = document.createElement("button");
+        clipboardButton.className = "clipboardButton";
+        clipboardButton.onclick = () => {
+            loadMusings("head");
+        };
+        var container = document.getElementsByClassName("container")[0];
+        container.appendChild(clipboardButton);
+        console.log(clipboardButton);
+    }
 }
 
 

@@ -19,7 +19,7 @@ body {
   }
   
   /* Style the button and place it in the middle of the container/image */
-  .container .btn {
+  .container .headButton {
     width: 10%;
     height: 25%;
     position: absolute;
@@ -37,6 +37,98 @@ body {
     border-radius: 5px;
   }
   
-  .container .btn:hover {
+  .container .headButton:hover {
+    background-color: black;
+  }
+
+   /* Style the button and place it in the middle of the container/image */
+   .container .torsoButton {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    opacity: 0.5;
+    top: 55%; /* Increase to move down */
+    left: 60%; /* Increase to move right */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .torsoButton:hover {
+    background-color: black;
+  }
+
+   /* Style the button and place it in the middle of the container/image */
+   .container .armsButton {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    opacity: 0.5;
+    top: 90%; /* Increase to move down */
+    left: 55%; /* Increase to move right */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .armsButton:hover {
+    background-color: black;
+  }
+
+   /* Style the button and place it in the middle of the container/image */
+   .container .legsButton {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    opacity: 0.5;
+    top: 55%; /* Increase to move down */
+    left: 90%; /* Increase to move right */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .legsButton:hover {
+    background-color: black;
+  }
+
+   /* Style the button and place it in the middle of the container/image */
+   .container .clipboardButton {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    opacity: 0.5;
+    top: 55%; /* Increase to move down */
+    left: 90%; /* Increase to move right */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .clipboardButton:hover {
     background-color: black;
   }
