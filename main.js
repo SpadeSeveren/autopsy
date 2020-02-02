@@ -1,20 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 const slash = process.platform === 'darwin' || process.platform === 'linux' ? '/' : '\\';
-
-let points = {
-    "killer": 0,
-    "lover": 0,
-    "humor": 0,
-    "conspiracy": 0
-};
-
-let available = {
-    "head": true,
-    "torso": true,
-    "arms": true,
-    "legs": true,
-    "clipboard": true
-};
+let fs = require('fs');
+let {points, available} = require(`.${slash}data.json`);
 
 let aurthurMood = 'normal';
 
@@ -30,10 +17,27 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true
         }
-    })
+    });
+
+    fs.writeFileSync(`.${slash}data.json`, JSON.stringify({
+        "points": {
+            "killer": 0,
+            "lover": 0,
+            "humor": 0,
+            "conspiracy": 0
+        },
+        
+        "available": {
+            "head": true,
+            "torso": true,
+            "arms": true,
+            "legs": true,
+            "clipboard": true
+        }
+    }), 'utf8');
 
     // and load the index.html of the app.
-    win.loadFile('scenes\\body.html')
+    win.loadFile(`scenes${slash}body.html`)
 
     win.maximize();
 
@@ -150,6 +154,7 @@ function advanceArthurDialogue() {
 }
 
 function loadMusings(bodyPart) {
+    fs.writeFileSync(`.${slash}data.json`, {points: points, available: available}, 'utf8');
     window.location.href = `./${bodyPart}.html`;
 }
 
@@ -202,10 +207,6 @@ function createMusings(bodyPart) {
     table.style = "width: 50%";
     container.appendChild(table);
 }
-
-// function getMood() {
-//     return aurthurMood;
-// }
 
 function increasePoints(bodyPart, musing) {
     points = require('./lib/text.js').increasePoints(points, bodyPart, musing);

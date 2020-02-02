@@ -65,6 +65,117 @@
                     "You: “Your theory is compelling, but impractical. Especially given the rest of the wounds on the body.”",
                     "Arthur gives a glance to the victim, seeming to wax poetic in his own world just a bit longer, trying to burn the image of his thorned rose into his memory. He writes something in his notes, his face downcast."
                 ]
+            },
+            "Ruminate": {
+                "text": [
+                    "I take a look at the victim’s hair. It’s greasy, enough so leave streaks on my gloves after just a moment of contact.",
+                    "Was his hair always this unkempt, or did something happen to the body post mortem?",
+                    "I pick at it gently to avoid agitating the wound on his scalp too much.",
+                    "Streaks of blood are caked into his hair, gluing strands into macabre braids. Flecks of dried blood crack and fall off whenever I move it.",
+                    "There are some pretty gruesome patches on his scalp where the skin has been ripped clean off.",
+                    "While it’s hard to initially see the damage, it seems that his mangy hair is hiding an extensive deal of damage.",
+                    "How did it happen? Those injuries are usually consistent with having hair forcefully yanked out.",
+                    "Was he dragged somewhere? Did this happen during a struggle? I study the rest of his head for further signs of damage.",
+                    "There’s blood pooling around his head wound. Although subtle, there seems to be a noticable difference between the blood texture in his hair and the blood pouring from the side of his head.",
+                    "Did these injuries happen at different times?",
+                    "I make a note of that.  The victim’s hair isn’t too long. Whatever grabbed him did so with a remarkable degree of force."
+                ],
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 1,
+                    "conspiracy": 0
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 1,
+                    "conspiracy": 0
+                },
+                "arthur_response": [
+                    "You: “I’m starting to see a pattern come together.”",
+                    "You: “This might be a bit of a reach, but I’m ready to start drawing conclusions about our corpse.”",
+                    "You: “Between the tattoo and possible signs of a struggle on his body, I’m guessing that our victim was a fighter. He didn’t die quietly.”",
+                    "Arthur: “You’re basing that off a tattoo?”",
+                    "You: “Not quite. But I’ve seen a lot of bodies down here over the years. After a while, you get a sense for how people died. Not just the cause of death, but the circumstances.”",
+                    "You: “Was it peaceful? Was it violent? Did they resist? Every injury tells a story, and this man’s injuries paint the image of a man who clung to life until his very last moment. Death really had to put the work in.”",
+                    "Arthur “Huh. Noted.”",
+                    "Arthur records these observations. His brow furrows as he does so.",
+                    "You: “This isn’t a clinical observation, but there’s something almost ironic about a tattoo like that and an ending like this.”",
+                    "Arthur: “Hm? I’m not sure that I follow.”",
+                    "You: “Remember our observations about the subcultures with tattoos like this? They were everywhere a decade ago.”",
+                    "You: “A lot of these bands celebrated death. Their music explored some of the more uncomfortable and melancholy symbolism behind it. They were brutal people, but in a weirdly emotional way instead of a physical one.”",
+                    "Arthur: “I see..?”",
+                    "You: “Sorry. I digress. Memories, y’know? There’s this certain edge to those old goth cultures you don’t see anymore.”",
+                    "You: “There’s this apocryphal story about one of the guys from Nightwish writing a full album as a suicide note. It’s unrelated, but there’s death all around, I suppose.",
+                    "Arthur: “Huh.”",
+                    "Arthur: “Good observation. Just a quick note doctor, I think you’re confusing your genres a bit.”",
+                    "Arthur: “Nightwish isn’t goth, remember?”",
+                    "Arthur: “There’s certainly a thematic overlap, and a guy with a tattoo like this could conceivably be both into EuroMetal and goth culture, but we shouldn’t write them down like they’re the same thing.”",
+                    "You: “Right.”",
+                    "I make a mental note of that and file it away."
+                ]
+            },
+            "Litigate": {
+                "text": [
+                    "Something’s been bothering me. The air is uneasy.",
+                    "Something beyond the corpse in front of me. As uncomfortable as his injuries are. They represent something familiar.",
+                    "I can tolerate death. I can tolerate violence. They’re uncomfortable, especially in this proximity, but I can understand them.",
+                    "Working as a mortician has made me respect this brutality as an innate fact of life.",
+                    "We all die. That’s non-negotiable. The only say we have in the matter is if we leave this world with any dignity. This corpse sure didn’t.",
+                    "I can understand that. I tolerate that. I have to.",
+                    "What I don’t tolerate, however, is disrespect.",
+                    "The victim stares back at me. His face is vacant, stranded somewhere beyond sleep.",
+                    "I look back up at Arthur. His beady little eyes sit smugly atop his mask. How dare he.",
+                    "How dare he.",
+                    "I’m a mortician. There’s a body in front of us. Our objective is to learn as much as we can about the cause of death.",
+                    "So, I don’t see any space in that equation for Arthur to start mouthing off about what is and isn’t goth.",
+                    "Does he think he’s helping? Does he think he’s making a positive contribution?",
+                    "Fuck that. Fuck him.",
+                    "I could replace Arthur in a heartbeat and the only thing I’d lose is the noise. The boy has one job, and he’s doing worse than a tape recorder would.",
+                    "Tape recorders don’t get smug about definitions of Goth.",
+                    "They listen. They record. They reiterate. Tape recorders don’t feel the obsessive need to make their lack of musical awareness into everybody else’s problem.",
+                    "I look up at Arthur again. Fuck that guy and his smuggness."
+                ],
+                "requires": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 2,
+                    "conspiracy": 0
+                },
+                "increase_points": {
+                    "killer": 0,
+                    "lover": 0,
+                    "humor": 1,
+                    "conspiracy": 0
+                },
+                "arthur_response": [
+                    "You: “Okay. I really don’t need you getting all sanctimonious over this, especially when we’ve got a dead body in here.”",
+                    "You: “And I especially don’t need you policing me about what is and isn’t goth, especially when you’re so incredibly wrong about it.”",
+                    "Arthur: “Wait, what is this about--”",
+                    "You: “You know damn well what this is about, you fool.”",
+                    "You: “You absolute goddamn loon.”",
+                    "You: “You soft brain soyboy.”",
+                    "You: “Parading all up in here with a brain that looks like raw chicken breast all up in MY morgue and trying to tell me what goth it.”",
+                    "You: ““",
+                    "You: “Hey! Hey Arthur!”",
+                    "“Arthur stares back at me nervously.”",
+                    "You: “Hey Arthur! I’ve got a message for you!”",
+                    "Arthur: “OKay..?”",
+                    "You: “Hey Arthur! Fuck you!”",
+                    "You: “And if you see your parents, I want you to tell them something for me.”",
+                    "A pause.",
+                    "You: “I want you to tell them:”",
+                    "You: “Fuck you!”",
+                    "You: “Look at the audacity on this bitch. Comin’ up all in my morgue and trying to tell me what IS and ISN’T goth.”",
+                    "You: “Guess what, boy“?",
+                    "Arthur is silent, his expression sunken behind his mask.",
+                    "You: “How are you the least pleasant person in this room when the other one is a goddamn corpse, Arthur?”",
+                    "Whew. I pause and catch my breath.",
+                    "What was I doing again? I look down. In the heat of the moment, I had plunged my hand into the open wound on the victim’s head.",
+                    "My hand is caught in an instinctive death grip around the victim’s brain. It squishes about under my fingers.",
+                    "Still a better brain than Arthur’s. No contest."
+                  ]
             }
         }
     },
