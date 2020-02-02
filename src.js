@@ -184,7 +184,7 @@ function createBodyButtons() {
         var clipboardButton = document.createElement("button");
         clipboardButton.className = "clipboardButton";
         clipboardButton.onclick = () => {
-            loadMusings("head");
+            loadMusings("clipboard");
         };
         var container = document.getElementsByClassName("container")[0];
         container.appendChild(clipboardButton);
