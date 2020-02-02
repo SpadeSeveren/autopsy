@@ -135,7 +135,25 @@
                     "What was I doing again? I look down. In the heat of the moment, I had plunged my hand into the open wound on the victim’s head.",
                     "My hand is caught in an instinctive death grip around the victim’s brain. It squishes about under my fingers.",
                     "Still a better brain than Arthur’s. No contest."
-                  ]
+                ]
+            },
+            "The head wound was caused by…": {
+                "path": "conspiracy",
+                "text": [
+                    "I know what the pattern on the back of the head looks like. I’ve seen this wound before, but not on humans…",
+                    "Pigs! I’ve seen this wound on pigs! There’s a sacrificial weapon that’s meant to behead them, a… what was it…? A ram-dao! But who would use one of those… on…",
+                    "Oh, shit. This goes deeper than a standard murder. I need to run this by Arthur."
+                ],
+                "requires": 2,
+                "arthur_response": [
+                    "You: “Arthur.”",
+                    "Arthur: “Doctor.”",
+                    "You: “What do you know about livestock?”",
+                    "Arthur: “Only as much as I could have learned dissecting them. Why?”",
+                    "You: “I suppose I expected as much. While I was back in Bangladesh, I was very close to some animal sacrifices. This wound… this wound is consistent with--no, this is a wound from a weapon called a ram-dao. They’re used in ritual sacrifices.",
+                    "Arthur: “I doubt it’s that specific, really. It’s almost surely just some object the killer grabbed in haste.”",
+                    "Arthur starts scribbling in his notes. Maybe he’s not seeing the pieces the way I am. No, that can’t be it. He has to see it all, the evidence is overwhelming! Then… why does he deny it? It couldn’t be…"
+                ]
             }
         }
     },
@@ -173,6 +191,53 @@
                     "You: “You could make a nice candle perhaps, or use it as a nice ghee. Human flesh melts at 35 celsius, perfect for an olive oil or butter substitute. It also has an almost bacony aftertaste, so it’s wonderful for a morning fry up.”",
                     "I couldn’t be sure if Arthur was impressed by my medical knowledge, or worldly experience, but he didn’t seem interested in continuing the conversation. Wise, my thoughts were too important to countenance further interruption."
                 ]
+            },
+            "The internal organs aren’t quite right…": {
+                "path": "conspiracy",
+                "text": [
+                    "I don’t like the way these organs are sitting; they seem too big for the abdominal cavity. They’re pushing on the diaphragm like rain to a dam, ready to burst through and funnel the sinew of these impostor organs through the cracks like pasta dough through a strainer.",
+                    "They’re definitely too big for the space they’re in. There’s no way these organs are… his. That’s bizarre enough on its own, but: whose are they?",
+                    "Looking at them a little more closely, these aren’t even human. Is this some kind of sick joke? This cadaver is stuffed full of pig organs!",
+                    "And yet… I’ve been operating under the assumption that the incision here was made post-mortem. Is it possible that this was sealed and reopened?",
+                    "There appear to be scars consistent with cauterization on the fringes of the incision. How long was the victim made to hold organs that weren’t his?",
+                    "Even more bizarre, the foreign organs appear to have been taking to the body, even going so far as to merge with the victim’s own flesh in places.",
+                    "Surely Arthur is not so foolish to have missed all of this. He can see it on my face, I’m sure. But he seems stoic."
+                ],
+                "requires": 2,
+                "arthur_response": [
+                    "You: “Arthur, what can you see here?”",
+                    "Arthur: “An abdomen full of intact organs and shredded intestines.”",
+                    "You: “It’s more than that, I think. What stands out about the organs themselves, intact as they are?”",
+                    "Arthur: “I’d say they’re a bit large, if anything, but that’s not out of the ordinary. This textbook says organs can enlarge and bloat after death, and retain excess moisture for a time.”",
+                    "Of course he’d have a textbook reference for this. That doesn’t mean anything drastic, though, just that he’s done his research. I’d expect at least that.",
+                    "You: “Well said. Anything strike you about the intestines?”",
+                    "Arthur: “They’re not especially remarkable, other than their distinct… shape.”",
+                    "You: “What shape are you referencing?”",
+                    "Arthur: “The lack thereof, naturally.”",
+                    "Interesting. He seems to be dancing around the idea of foreign influence on the cadaver. Could it be…"
+                ]
+            },
+            "The stab wound…": {
+                "path": "conspiracy",
+                "text": [
+                    "The laceration in the abdomen appears consistent with a stab wound that was twisted in the gut and wrenched downward. Based on the tearing in the flesh, the weapon used could have been anywhere from 7 to 9 inches long, and it was sharp.",
+                    "My old English professor would have said the situation was rather phallic, but I’m not so sure. Nothing about a murder screams, “homoerotic!” to me.",
+                    "Looking at the depth of the incision does make me think that the victim was screaming when he realized his internals would be spilling out, though.",
+                    "I can’t say I envy him: the whole array of suffering puts a lump in my throat. Fleeing the chaos of the abdomen and the inevitability of the brain, it seeks shelter in the between. And yet, it lives.",
+                    "This might make a good opportunity to teach Arthur about some of the realities of this life; bridging the gap between the newborn student and the grizzled mentor, we can gain understanding from death’s uncompromising grip."
+                ],
+                "requires": 0,
+                "arthur_response": [
+                    "You: “Arthur, make a note that the abdominal wound is deep enough that the weapon could have grazed the spinal column, but did not.”",
+                    "Arthur: “Okay, what does that mean for the victim?”",
+                    "Good question.",
+                    "You: “Whoever attacked them did so without any wasted motion. The cut was nearly surgical in precision. Nearly.”",
+                    "Arthur: “And that means…?”",
+                    "You: “Our victim was not struggling when this was made. As for whether or not the wound was inflicted post-mortem remains to be seen, but I’d wager it was post-mortem.”",
+                    "Arthur: “So, the killer has a fascination with dissection? Would the complete disarray of the intestines point in that direction?”",
+                    "You: “Very likely, yes.”",
+                    "Arthur takes a minute to scramble for his notes, which he had put down briefly before. He pulls a pen from the pocket of his scrubs, and begins writing with speed like a racehorse."
+                  ]
             }
         }
     },
@@ -205,6 +270,32 @@
                     "You: “What’s unprofessional is not giving the investigation the entirety of our observations. Our reports are an art Arthur, and art is filtered through the mind of that Author.”",
                     "You: “What we report say as much about us, as it does about the body.”",
                     "He seems confused, but he’ll understand in time. They always do."
+                ]
+            },
+            "The broken thumb…": {
+                "path": "conspiracy",
+                "text": [
+                    "The way the thumb is broken, it seems our victim may have been held against his will, and attempted to escape.",
+                    "The way traditional handcuffs are constructed, if someone were to break their own thumb, someone could feasibly slip them.",
+                    "That is to suggest, however, that the victim had the know-how and the wherewithal to conceivably attempt an escape, and the ill-fortune to fail in the process.",
+                    "Or perhaps the odds were stacked against him… It could be inferred that the victim had multiple assailants, given the inconsistency between injuries.",
+                    "What was it, then, that pitted the victim against a force both more powerful and more well-equipped than him?",
+                    "Looking at the injuries on the hand, it seems that the thumb is broken in two places: at the base, where it could have been self-inflicted, and above the middle joint, where this is substantially less likely.",
+                    "The former injury is also older than the latter, so it might be possible that the victim made an attempt to escape, was captured, and was then tortured for it.",
+                    "Strange…"
+                ],
+                "requires": 1,
+                "arthur_response": [
+                    "You: “Arthur, have you ever been handcuffed?”",
+                    "Arthur: “No, Doctor. I don’t think crime would serve me any better than my knowledge.”",
+                    "You: “There are other situations where you might end up in bonds, Arthur. Should you find yourself in handcuffs and valuing your freedom more than your joints, you should know that you can slip them by breaking your own thumb at the base.”",
+                    "Arthur: “It’s highly unlikely I would allow myself to be in that position, to be honest.”",
+                    "You: “You’re probably right about that. Our victim, however, was not so careful. He found himself in conventional handcuffs, attempted to escape, was caught, and then was tortured.”",
+                    "You: “We can see that the thumb is broken in two places, and one injury stands out from the rest: the base of the thumb, broken intentionally. The stress fractures indicate that no tool was used at the base, but some sort of clamp or a pair of pliers was used elsewhere.”",
+                    "Arthur is absorbed in his notes, looking for something. His eyes flash with recognition, he looks to me, and looks back to his notes.",
+                    "Arthur: “You got all that from the thumb?”",
+                    "You: “More or less. You have to also take into account the bruising on the arms, and the cadaver as a whole. Then, things start to fall into place.”",
+                    "When I glance back to Arthur, he’s scribbling away in his notes. He has a good head on his shoulders, and he’s quick with his pen. I wonder if he writes faster than he talks?"
                 ]
             }
         }
