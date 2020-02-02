@@ -215,9 +215,9 @@ function checkEnd(){
     
     console.log(points);
     console.log(end);
-    if(end != false){
+    if(end !== false){
         console.log("end achieved");
-        switch(end) {
+        /*switch(end) {
             case "humor":
                 window.location.href = "./humorEnding.html";
             case "conspiracy":
@@ -225,7 +225,19 @@ function checkEnd(){
             case "lover":
                 window.location.href = "./loverEnding.html";
             case "killer":
-                window.location.href = "./killerEnding.html";
+                window.location.href = "./humorEnding.html";
+        }*/
+        if(end === "humor") {
+            window.location.href = "./humorEnding.html";
+        }
+        if(end === "conspiracy") {
+            window.location.href = "./conspiracyEnding.html";
+        }
+        if(end === "lover") {
+            window.location.href = "./loverEnding.html";
+        }
+        if(end === "killer") {
+            window.location.href = "./killerEnding.html";
         }
     }
 }
@@ -241,20 +253,23 @@ function loadBody() {
 function fetchEnding(ending) {
     var container = document.getElementsByClassName("container")[0];
     var endingText = document.createElement("button");
-    this.textArray = require(`..${slash}lib${slash}text.js`).fetchEndingText(ending);
-    this.maxCount = textArray.length;
-    this.count = 0;
-    this.ending = ending;
+    endingText.textArray = require(`..${slash}lib${slash}text.js`).fetchEndingText(ending);
+    endingText.maxCount = endingText.textArray.length;
+    endingText.count = 0;
+    endingText.ending = ending;
+    endingText.innerText = endingText.textArray[0];
+    endingText.className = "dialogue_button";
     endingText.addEventListener("click", increaseEnding);
     container.appendChild(endingText);
 }
 
 function increaseEnding() {
-    if(count === maxCount - 1) {
+    if(this.count === this.maxCount - 1) {
 
     }
     else {
         this.count++;
-        this.innerHTML = this.textArray[this.count];
+        console.log(this.textArray);
+        this.innerText = this.textArray[this.count];
     }
 }
