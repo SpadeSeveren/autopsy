@@ -25,6 +25,9 @@ function musingButtonCallback(bodyPart, musing) {
     var body = document.body;
     newContainer.appendChild(textElement);
 
+    var element = document.getElementsByClassName("observationalText")[0];
+    element.parentNode.removeChild(element);
+
     document.body.appendChild(newContainer);
 
 }
@@ -48,7 +51,7 @@ function dialogueButtonCallback(bodyPart = currentBodyPart, musing = currentMusi
     textElement.dialogueLength = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing).length;
     textElement.className = "dialogue_text";
     textElement.addEventListener("click", advanceArthurDialogue);
-
+    
     var newContainer = document.createElement("container");
     newContainer.className = "dialogue_container";
 
@@ -73,8 +76,6 @@ function advanceArthurDialogue() {
     if (this.count == this.dialogueLength - 1) {
         points = require(`..${slash}lib${slash}text.js`).increasePoints(points, this.bodyPart, this.musing);
         available[this.bodyPart] = false;
-        console.log('available')
-        console.log(available)
         this.innerHTML = "Return to the full-body examination";
         this.onclick = () => {
             loadMusings("body");
@@ -150,7 +151,7 @@ function createMusings(bodyPart) {
     container.appendChild(table);
     var div = document.createElement("P");
     div.textContent =  require(`..${slash}lib${slash}text.js`).fetchDiscriptions(bodyPart);
-    div.style = "border: 2px solid black;";
+    div.className = "observationalText";
     container.appendChild(div);
 }
 
