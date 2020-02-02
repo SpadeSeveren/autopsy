@@ -19,7 +19,7 @@ function createWindow() {
         }
     });
 
-    fs.writeFileSync(`.${slash}data.json`, JSON.stringify({
+    fs.writeFileSync(`./data.json`, JSON.stringify({
         "points": {
             "killer": 0,
             "lover": 0,
@@ -154,7 +154,7 @@ function advanceArthurDialogue() {
 }
 
 function loadMusings(bodyPart) {
-    fs.writeFileSync(`.${slash}data.json`, {points: points, available: available}, 'utf8');
+    fs.writeFileSync(`./data.json`, {points: points, available: available}, 'utf8');
     window.location.href = `./${bodyPart}.html`;
 }
 
