@@ -49,6 +49,7 @@
                 ]
             },
             "Ruminate": {
+                "arthur": "normal",
                 "path": "humor",
                 "text": [
                     "I take a look at the victim’s hair. It’s greasy, enough so leave streaks on my gloves after just a moment of contact.",
@@ -89,6 +90,7 @@
                 ]
             },
             "Litigate": {
+                "arthur": "scared",
                 "path": "humor",
                 "text": [
                     "Something’s been bothering me. The air is uneasy.",
@@ -159,6 +161,7 @@
                 ]
             },
             "His face is so serene and calm for such terrible circumstances.": {
+                "arthur": "normal",
                 "path": "lover",
                 "text": [
                     "His face looks just as it did when he was alive; if only he would just wake up at any moment. Then we could talk again like we used to before the accident.",
@@ -269,6 +272,7 @@
                 ]
             },
             "Aggressively Re-litigate": {
+                "arthur": "scared",
                 "path": "humor",
                 "text": [
                     "“There’s something dissonant about the chest wounds.",
@@ -308,6 +312,7 @@
                 ]
             },
             "It’s so gruesome, and hard to look at…": {
+                "arthur": "sad",
                 "path": "lover",
                 "text": [
                     "There is no way that this level of internal mangling could have been done while he was still alive. It’s much too severe.",
@@ -338,7 +343,7 @@
         "observational_text": "Victim has several injuries along his arms consistent with a struggle, but the overall chaotic nature of the body makes it difficult to tell which ones are recent. The victim has scars dotting the ridges of his knuckles. While visible, they aren’t pronounced enough to tell the source. Blood on the victim’s hands suggest injuries along the knuckles that recently reopened. Patches of blood have dried on the inside of the victim’s fingers which appear to be from this source. Bruising along the victim’s forearms consistent with blunt impact. These bruises have bloomed into vibrant blue splotches that cover his arms like patchwork flowers. Webs of burst capillaries indicate that the trauma was severe, but the blooming makes it difficult to tell the initial dimensions of the impact. The victim’s fingernails are jagged and uneven, suggesting that he frequently bit his nails. Trace organic matter seems to be stuck under the fingernails and caked with dried blood. It is unclear if the blood belongs to the victim or another party. One of the victim’s fingernails--his left ring finger--has been torn clean off. The skin underneath is raw and agitated. The thumb on his left hand is badly injured, and appears to be bent out of shape. It protrudes at an odd angle, having been broken just above the middle joint. Discoloration is especially pronounced. The victim’s left arm is noticeably more discolored than the other. The uncertain TOD widens the potential range of factors that could cause this. While the most likely scenario is that the arms were unevenly tan, it is impossible to determine without more extensive examination. Likely irrelevant, but the victim’s left arm is 0.74 inches longer than his right. Neat!",
         "musings": {
             "PERHAPS HE WAS TORTURED": {
-                "arthur": "normal",
+                "arthur": "scared",
                 "path": "killer",
                 "text": [
                     "The scarring across his fingers indicates damage old enough to heal. Perhaps the victim was a fighter, professional or otherwise, but there are other possibilities.",
@@ -394,6 +399,7 @@
                 ]
             },
             "Something’s missing.": {
+                "arthur": "normal",
                 "path": "humor",
                 "text": [
                     "The victims arms have a myriad of injuries.",
@@ -420,6 +426,7 @@
                 ]
             },
             "This bruising seems as if it were from a fall or self defense.": {
+                "arthur": "sad",
                 "path": "lover",
                 "text": [
                     "Where did this large and intense bruising on the forearms come from?",
@@ -468,6 +475,7 @@
                 ]
             },
             "That tattoo looks familiar…": {
+                "arthur": "normal",
                 "path": "humor",
                 "text": [
                     "This tattoo is familiar in a way that I can’t quite pin down. The design speaks to something old, something collectively half-remembered.",
