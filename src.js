@@ -130,9 +130,9 @@ function createMusings(bodyPart) {
         musingText.className = "musing_button";
         musingText.bodyPart = bodyPart;
         row.appendChild(musingText);
+        row.className = "musing_row";
         table.appendChild(row);
     })
-    table.style = "width: 50%";
     container.appendChild(table);
 }
 
