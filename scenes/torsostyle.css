@@ -63,7 +63,8 @@ body {
   
     .prompt {
       font-size: 22px;
-      justify-content: center;
+      text-align: center;
+      display: inline-block;
       width: 605px;
       height: 40px;
       border: 2px solid black;
