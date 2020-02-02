@@ -154,6 +154,33 @@
                     "Arthur: “I doubt it’s that specific, really. It’s almost surely just some object the killer grabbed in haste.”",
                     "Arthur starts scribbling in his notes. Maybe he’s not seeing the pieces the way I am. No, that can’t be it. He has to see it all, the evidence is overwhelming! Then… why does he deny it? It couldn’t be…"
                 ]
+            },
+            "His face is so serene and calm for such terrible circumstances.": {
+                "path": "lover",
+                "text": [
+                    "The victim’s face looks peaceful, as if he’s sleeping and will wake up at any moment. Despite the injuries on the rest of his body, his face remains relatively undamaged.",
+                    "His facial features are soft. A rounded chin and flat cheeks that haven’t quite lost all their baby fat. Some dirt is smudged on the left side of his face, just below the cheekbone.",
+                    "Although his body has since picked up some dirt and grime, his complexion remains relatively clear. The color has since drained from his face, highlighting just how smooth his skin is.",
+                    "Whatever impact injured his head was delivered with enough force to partially crack his skull, giving his overall head shape an uneven and somewhat flat appearance. Clumps of loose skin around the point of contact suggest the possibility of a serrated weapon, but it will ultimately be impossible to determine the exact dimensions without shaving his head and compromising potential trace evidence.",
+                    "His face looks just as it did when he was alive; if only he would just wake up at any moment. Then we could talk again like we used to before the accident.",
+                    "Wait--this was not an accident, this was a murder. I have to figure out what really happened here.",
+                    "Focus on the wounds, on the body in front of you, not on the person. He is gone, I have to accept that and figure out how… and why…",
+                    "It is quite an impressive impact, a heavy object with a serrated edge using enough force to crush the skull and cut the skin."
+                ],
+                "requires": 0,
+                "arthur_response": [
+                    "You: “Arthur, how is it that the victim can have such terrible wounds and seem to have had a violent death, and yet look so peaceful?”",
+                    "Arthur: “You have a point. From what the textbooks tend to say, with the severity of the case and the intense head wound, we should see more damage to the face.”",
+                    "You: “Well you’ll find that most cases don’t necessarily unfold as smoothly as the textbook will make it seem. I’m personally very glad to not have to examine a face that I can no longer recognize…”",
+                    "You: “My guess is that this wasn’t done by someone who knew him, nor was it a crime of passion.”",
+                    "Arthur: “What exactly do you mean by that, Doctor? I mean both the part about recognizing the face of the victim and about the crime of passion aspect.”",
+                    "You: “I mean that the killing blow seems to have been one single, swift strike to the head. Something heavy and serrated, see the swelling around the cut and the blunt force trauma to the surrounding area?”",
+                    "You: “They wanted a body, not a victim… so they could have access to the rest of the body without struggle. I doubt Mark even knew what was happening, just taken out from behind without the slightest idea it was coming.”",
+                    "Arthur: “Wait, how do you know the victim’s name? That wasn’t on his chart.”",
+                    "You: “Honestly, Arthur, I knew Mark before today. In my uh... personal life. I requested this case actually, but I didn’t tell them why.”",
+                    "Arthur: “Um, Doctor? Can you even do that?”",
+                    "You: “I already did.”"
+                ]
             }
         }
     },
@@ -237,7 +264,73 @@
                     "Arthur: “So, the killer has a fascination with dissection? Would the complete disarray of the intestines point in that direction?”",
                     "You: “Very likely, yes.”",
                     "Arthur takes a minute to scramble for his notes, which he had put down briefly before. He pulls a pen from the pocket of his scrubs, and begins writing with speed like a racehorse."
-                  ]
+                ]
+            },
+            "Aggressively Re-litigate": {
+                "path": "humor",
+                "text": [
+                    "“There’s something dissonant about the chest wounds.",
+                    "Even though the brutality is consistent with the other injuries in the body, there’s something different about these cuts. They possess a certain intentionality that’s not present anywhere else.",
+                    "Postmortem, maybe? I pick at the edges of the cut slightly to look for signs.",
+                    "...",
+                    "Vexing. I’m having difficulty focusing.",
+                    "If these cuts were made at a different time than the head injury, there’s likely to be a variation in blood coagulation.",
+                    "Hm…",
+                    "Something Arthur said nips at the back of my mind, threatening to overtake my thoughts if I allow it.",
+                    "Nightwish isn’t a goth band?",
+                    "That feels like a really pedantic thing to get caught up on. Especially when you’re in the business of dead bodies.",
+                    "Like, yeah, there’s probably some super clinical definition of goth expressive culture that narrows the genre down to 5 total bands from the mid 80s, but that’s just splitting hairs.",
+                    "The Nightwish album Once (2004) was considered a masterclass in symphonic and operatic metal. It completely changed the genre and added this new expectation of dark expressionism to a lot of the acts that followed.",
+                    "Epica. Within Temptation. Lacuna Coil. Nobody’s gonna’ say that those bands aren’t goth, and they all visibly draw thematic inspiration from Nightwish’s mid era stuff.",
+                    "Hell, some of their visual work on the album normalized graveyards--especially ones with gothic victorian imagery--as commonplace for the genre until the industrial boom several years later.",
+                    "I line up these lots like a cannoneer prepares his ammunition. The next time that Arthur tries to get picky about it, I’ve got a goddamn barrage waiting for him.",
+                    "...",
+                    "Squish.",
+                    "Oh. Right. The gaping chest wound. That."
+                ],
+                "requires": 3,
+                "arthur_response": [
+                    "Arthur: “Any observations?”",
+                    "You: “Yeah. You’re wrong.”",
+                    "Arthur: “I’m wrong about--”",
+                    "You: “--The notion that the goth movement is exclusive to some to post psychobilly and rockabilly acts from the 80s is an utterly elitist mindset that refuses to acknowledge that culture, especially expressive culture, changes over time.”",
+                    "You: “If you’re policing goth culture by trying to keep it both retro and narrow, you’re excluding the massive boom in EuroMetal that’s re-energized the cultural scene. You’d be an idiot to say that a musical act like Malice Mizer isn’t goth, and they didn’t become relevant until after The Cure broke up.”",
+                    "Arthur: “Listen. I wasn’t trying--”",
+                    "You: “No. You listen!”",
+                    "Squish.",
+                    "I withdraw my hand from the chest cavity. A halfhearted spurt of blood follows.",
+                    "You: “I find it offputting, and frankly disrespectful, for you to just showboat your cultural elitism on one of the most expressive and emotional acts of the century. The symphonic composition that Tuomas Holopainen introduced to the medium in songs like Ghost Love Score and Creek Mary’s Blood completely changed the understanding of the upper limits of the genre, especially because it proved to a lot of international labels that longform compositions still had commercial and critical viability as singles and MV content instead of simply being--",
+                    "Arthur: “...”",
+                    "Arthur is staring at me vacantly. His disrespectful aura dampens the room like a faulty sprinkler system.",
+                    "You: “If you compare some of the ‘conventional’ acts before Oceanborn, there’s a visibly lower bar for quality, both in composition and performance. A lot of the self-styled symphonic artists of that era were just slightly progressive hard metal acts with the occasional Tolkien or Faustian aesthetic, but the notion of long-scale concept albums was relatively unexplored."
+                ]
+            },
+            "It’s so gruesome, and hard to look at…": {
+                "path": "lover",
+                "text": [
+                    "The cut is deep, like a thought that lingers just a little too long. Intestines were found outside the body, and have been partially replaced for this procedure.",
+                    "The intestines themselves are shredded and almost unrecognizable. Faithful reconstruction is impossible, but it can be noted that a significant amount of tissue is missing.",
+                    "There is no way that this level of internal mangling could have been done while he was still alive. It’s much too severe.",
+                    "The damages done to the internal organs are also consistent if we assume the initial stab wound took place post mortem.",
+                    "I can’t believe some maniac was capable of just digging around in a corpse’s insides. Without it being for work, I mean…",
+                    "It’s so hard to see him this way… in such a state as this.",
+                    "I mean, only a few days ago we were together and neither of us had any idea of what was to come."
+                ],
+                "requires": 1,
+                "arthur_response": [
+                    "You: “Arthur… this might be too much for me.”",
+                    "Arthur: “In what way is this difficult for you?”",
+                    "You: “After just being with him the other day, and now we’re both here… like this.”",
+                    "You: “I just want to figure this out, make this better somehow.”",
+                    "Arthur: “Doctor, Mark wasn’t just a friend was he? I get the feeling that perhaps there was something more between the two of you.”",
+                    "Arthur: “You could get in a lot of trouble for this, for taking a personal case--this kind of personal. They will invalidate all of our findings based on the idea that you have too close of an emotional connection to the case.”",
+                    "You: “That’s only if they find out, Arthur. I have been very careful to make sure that no one does. So if they do…”",
+                    "You: “Don’t make me have to finish that thought, Arthur. I need to help solve this case. For Mark.”",
+                    "You: “This isn’t about revenge or personal justice. It’s about literal justice, catching the bad guy… and closure for his family, myself included.”",
+                    "You: “I just want to do my job, get the suspect field narrowed down, and help myself to grieve on my own time. That’s all I ask.”",
+                    "Arthur: “Alright. I’ll keep your relationship a secret. I understand how you feel… and you are the only doctor who would allow me to assist on a such an intense case.”",
+                    "You: “We have a deal then; help me solve this case and I’ll allow you to get your field work hours completed on my autopsies.”"
+                ]
             }
         }
     },
@@ -323,6 +416,30 @@
                     "Arthur sighs.",
                     "Arthur: “Okay.“"
                 ]
+            },
+            "This bruising seems as if it were from a fall or self defense.": {
+                "path": "lover",
+                "text": [
+                    "Victim has several injuries along his arms consistent with a struggle, but the overall chaotic nature of the body makes it difficult to tell which ones are recent.",
+                    "Bruising along the victim’s forearms consistent with blunt impact. These bruises have bloomed into vibrant blue splotches that cover his arms like patchwork flowers. Webs of burst capillaries indicate that the trauma was severe, but the blooming makes it difficult to tell the initial dimensions of the impact.",
+                    "Where did this large and intense bruising on the forearms come from?",
+                    "The sheer size of it tells me it wasn’t from a point of impact but rather a full contact situation.",
+                    "Did he fall and try to catch himself before landing?",
+                    "Was this from the murder? Or an unrelated event beforehand?",
+                    "It could even be a defense wound, raising his arms to protect himself from an attacking blow. That is definitely more likely.",
+                    "I should run this by Arthur before I make a final decision."
+                  ],
+                "requires": 1,
+                "arthur_response": [
+                    "You: “Okay, this extended staring is doing nothing to progress my examination. Do you have any theories on how this bruising was caused?”",
+                    "Arthur: “I actually do have an idea. It looks a lot like one of the examples in the textbook. The blunt force seems similar to the injury on the head, maybe it was from the same weapon.”",
+                    "Arthur: “I’m sorry to say this, I know you knew him in life. However, perhaps the murderer went in for an initial strike and was met with the victims arms instead of head.”",
+                    "You: “It is hard to think about, but I do think you’re probably correct in that assumption. The radius and ulna do seem to be broken in a way where that would make sense.”",
+                    "You: “Just thinking of Mark, fighting to save himself… I had wished so much that he had no idea what was happening and went easily. But our evidence says otherwise.”",
+                    "Arthur: “I’m sorry Doctor, I know this can’t be easy. I also don’t know how to treat this other than I have have been taught to do in an autopsy.”",
+                    "Arthur: “Can you possibly think of this as just another body? Just another case to solve?”",
+                    "You: “I can’t, that would be disrespecting the reason I went into this in the first place. Let’s just continue the examination for now.”"
+                  ]
             }
         }
     },
@@ -347,6 +464,50 @@
                     "Arthur: “I don’t think anyone would be keeping tabs on his tattoo, Doctor.”",
                     "You: “Possibly. But we can’t rule it out.”",
                     "Arthur writes something in his notes. I’ll need to come back to those later. For now, what else could this body be hiding?"
+                ]
+            },
+            "That tattoo looks familiar…": {
+                "path": "humor",
+                "text": [
+                    "This tattoo is familiar in a way that I can’t quite pin down. The design speaks to something old, something collectively half-remembered.",
+                    "I try to place it, but no matter how much I focus, the design won’t get further than the peripheral edges of my memory.",
+                    "It’s enough to tempt a man to the edge of madness, frantically searching the back of my skull for a symbol that grows ever further the more that I press towards it.",
+                    "Vexing.",
+                    "I blink for a moment. Although faded, the black ink is still pronounced against the pale overhead light. As I stare, it seems to get bolder and bolder.",
+                    "Is something moving? I could swear that the wings moved, if only ever so slightly.",
+                    "Is this my imagination? The design is expanding, seemingly twisting at the tips as if preparing to burrow further through his skin.",
+                    "I blink again. The movement stops.",
+                    "Am I losing it? The tattoo wears at me. I can feel overhead light bearing down. Closing my eyes barely helps.",
+                    "Ahem. I digress.",
+                    "I do my best to stay clinical. Focus.",
+                    "The shaved skin and light scabbing suggest that this tattoo was recently modified. Nothing major, but I know that most tattoo artists offer to touch up their own work.",
+                    "It’s a long shot, but if we can use the tattoo to find the artist, we can use the artist to learn more about the victim.",
+                    "I take another look.",
+                    "Hm.",
+                    "The needlework is attentive. Intentional. Whatever this design means, the artist was intent on preserving it.",
+                    "These wings are impressive. Sitting through them must have been quite the ordeal. He was committed.",
+                    "Familiarity. Once again, I try to mentally inventory the symbol. There’s something familiar in the design, the dedication."
+                ],
+                "requires": 0,
+                "arthur_response": [
+                    "You: “Part of me feels like I’ve seen this tattoo before.”",
+                    "Arthur: “Now that you mention it… I feel that way too. What did you have in mind?”",
+                    "Hm… Wait! Something clicks in my head.",
+                    "You: “I know where I’ve seen this! Or at least, seen something like this.”",
+                    "God, this is a blast from the past",
+                    "You: “Stuff like this was all over the music underground a decade or so ago. Remember all those European bands that randomly got big? A lot of their design work looked like this.”",
+                    "Arthur: “Do you think that’s relevant to the case?",
+                    "You: “It could be. Ink like this isn’t common anymore. Can’t imagine that too many tattoo artists do this kind of gothic design.”",
+                    "Arthur: “Gothic, huh? Noted. Noted”",
+                    "Arthur: “Yeah… That makes sense. Do you think there are any conclusions we can draw from that?”",
+                    "You: “It might be too early to say. If this is relevant to the investigation, hopefully we’ll find something that puts it in context.”",
+                    "You: “Just staring at it though… It’s certainly a blast from the past. Reminds me of that old goth movement. Remember some of those bands?”",
+                    "You: “Remember Nightwish?”",
+                    "A pause.",
+                    "Arthur: “I didn’t think Nightwish was goth, but I guess I can see what you mean. This guy’s a relic from a different time.”",
+                    "You: “Nightwish isn’t goth? Huh.”",
+                    "I file the thought away.",
+                    "It doesn't feel like we’re any closer to unraveling the mysteries of this body."
                 ]
             }
         }
