@@ -89,7 +89,26 @@ function advanceArthurDialogue() {
 
 function loadMusings(bodyPart) {
     fs.writeFileSync(`./data.json`, JSON.stringify({ points: points, available: available }), 'utf8');
-    window.location.href = `./${bodyPart}.html`;
+    var end = require(`..${slash}lib${slash}text.js`).fetchEnding(points);
+    console.log(points);
+    console.log(end);
+    if(end == false) {
+        window.location.href = `./${bodyPart}.html`;
+        
+    }
+    else{
+        console.log("end achieved");
+        switch(end) {
+            case "humor":
+                window.location.href = "./humorEnding.html";
+            case "conspiracy":
+                window.location.href = "./conspiracyEnding.html";
+            case "lover":
+                window.location.href = "./loverEnding.html";
+            case "killer":
+                window.location.href = "./killerEnding.html";
+        }
+    }
 }
 
 function promptDialogue(element) {
@@ -121,7 +140,8 @@ function promptDialogue(element) {
     };
 
     yesButton.onclick = () => {
-        document.getElementById("img").src = `./Images/arthur happy.jpg`;
+        var arthurFace = require(`..${slash}lib${slash}text.js`).fetchArthurMood(element.bodyPart, element.musing);
+        document.getElementById("img").src = `./Images/arthur ${arthurFace}.jpg`;
         document.getElementsByClassName("container")[0].style = "width: 25%; height: 25%; transform: translate(150%, 0%);";
         dialogueButtonCallback(element.bodyPart, element.musing);
     };
