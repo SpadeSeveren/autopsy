@@ -91,8 +91,8 @@ function musingButtonCallback(bodyPart, musing) {
 }
 
 function advanceDialogue() {
-    if(this.count == this.dialogueLength) {
-        
+    if(this.count == this.dialogueLength - 1) {
+        console.log("Stopped");
     }
     else {
         this.count++;
