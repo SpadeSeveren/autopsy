@@ -6,7 +6,15 @@ let points = {
     "lover": 0,
     "humor": 0,
     "conspiracy": 0
-}
+};
+
+let available = {
+    "head": true,
+    "torso": true,
+    "arms": true,
+    "legs": true,
+    "clipboard": true
+};
 
 let aurthurMood = 'normal';
 
