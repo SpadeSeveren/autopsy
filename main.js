@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require('electron');
-const slash = process.platform === 'darwin' ? '/' : '\\';
+const slash = process.platform === 'darwin' || process.platform === 'linux' ? '/' : '\\';
 
 let points = {
     "killer": 0,
