@@ -70,8 +70,6 @@ function musingButtonCallback(bodyPart, musing) {
     container.parentNode.removeChild(container);
 
     var textElement = document.createElement("button");
-    console.log(this.bodyPart);
-    console.log(this.innerHTML);
     textElement.innerHTML = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.innerHTML)[0];
     textElement.musing = this.innerHTML;
     textElement.count = 0;
@@ -92,12 +90,37 @@ function musingButtonCallback(bodyPart, musing) {
 
 function advanceDialogue() {
     if(this.count == this.dialogueLength - 1) {
-        console.log("Stopped");
+        promptDialogue(this);
     }
     else {
         this.count++;
         this.innerHTML = require(`..${slash}lib${slash}text.js`).fetchMusingText(this.bodyPart, this.musing)[this.count];
     }
+}
+
+function promptDialogue(element){
+
+    element.parentNode.removeChild(element);
+
+    var container = document.getElementsByClassName("container")[0];
+    var prompt = document.createElement("div");
+    prompt.innerHTML = "Would you like to tell your thoughts to Arthur?";
+    container.appendChild(prompt);
+
+    var table = document.createElement("table");
+    var row = document.createElement("th");
+    
+    var yesButton = document.createElement("button");
+    var noButton = document.createElement("button");
+    yesButton.innerHTML = "Yes";
+    noButton.innerHTML = "No";
+    noButton.onclick = function(){
+        window.location.href='./head.html';
+    };
+    row.appendChild(yesButton);
+    row.appendChild(noButton);
+    table.appendChild(row);
+    container.appendChild(table);
 }
 
 
