@@ -90,11 +90,11 @@ body {
    /* Style the button and place it in the middle of the container/image */
    .container .legsButton {
     width: 10%;
-    height: 25%;
+    height: 50%;
     position: absolute;
     opacity: 0.5;
     top: 55%; /* Increase to move down */
-    left: 90%; /* Increase to move right */
+    left: 20%; /* Increase to move right */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
