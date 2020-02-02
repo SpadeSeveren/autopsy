@@ -153,7 +153,7 @@ function createMusings(bodyPart) {
     })
     container.appendChild(table);
     var div = document.createElement("P");
-    div.textContent =  require(`..${slash}lib${slash}text.js`).fetchDiscriptions(bodyPart);
+    div.innerHTML =  require(`..${slash}lib${slash}text.js`).fetchDiscriptions(bodyPart);
     div.className = "observationalText";
     container.appendChild(div);
 }
@@ -227,4 +227,18 @@ function checkEnd(){
                 window.location.href = "./killerEnding.html";
         }
     }
+}
+
+function loadIntro() {
+    window.location.href = `./introscreen.html`;
+}
+
+function loadBody() {
+    window.location.href = `./body.html`;
+}
+
+function fetchEnding(ending) {
+    var container = document.getElementsByClassName("container")[0];
+    var endingText = document.createElement("div");
+    endingText.innerHTML
 }

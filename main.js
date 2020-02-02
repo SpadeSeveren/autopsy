@@ -38,7 +38,7 @@ function createWindow() {
     }), 'utf8');
 
     // and load the index.html of the app.
-    win.loadFile(`scenes${slash}body.html`)
+    win.loadFile(`scenes${slash}titlescreen.html`)
 
     win.maximize();
 
