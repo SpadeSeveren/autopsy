@@ -2,7 +2,8 @@
     "head": {
         "observational_text": "lorem ipsum",
         "musings": {
-            "meticulous": {
+            "Meticulous": {
+                "path": "killer",
                 "text": [
                     "There are few points on the human skull that can be punctured in such a way. The skull is too thick for common weapons to penetrate without effort, and a stronger force would have ruined the victim’s face.",
                     "Then why would the skull be cracked in such a way? Perhaps the victim was knocked into submission first, skull like a dollar store egg.",
@@ -12,18 +13,7 @@
                     "Red dye on buttercream skin, a red velvet cake of death.",
                     "I was going to eat that cake."
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 1,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
+                "requires": 0,
                 "arthur_response": [
                     "You: “The killer was meticulous, Arthur.”",
                     "Arthur: “What makes you say that?”",
@@ -39,24 +29,14 @@
                 ]
             },
             "The head wound…": {
+                "path": "conspiracy",
                 "text": [
                     "The wound behind the ear is most likely the cause of death. The skull fractured into pieces small and sharp enough to pierce brain tissue, and there are some pieces still lodged into the tissue itself, despite the poor handling of the body.",
                     "That said, the shape of the wound is unclear. I don’t want to shave the head, but I might consider it if absolutely necessary.",
                     "The strange shape of the wound does, however, bring into question the nature of the weapon used. Was it a blunt instrument, or an improvised tool?",
                     "Arthur might have something to say about it."
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 1
-                },
+                "requires": 0,
                 "arthur_response": [
                     "You: “The wound back here is an odd one, to say the least. Come take a look.”",
                     "Arthur leans in from the other side of the table, wincing slightly once he catches view of the matted tangle of blood and hair. He observes it for a moment, his eyes betraying some small fascination, then pulls himself gently away.",
@@ -67,6 +47,7 @@
                 ]
             },
             "Ruminate": {
+                "path": "humor",
                 "text": [
                     "I take a look at the victim’s hair. It’s greasy, enough so leave streaks on my gloves after just a moment of contact.",
                     "Was his hair always this unkempt, or did something happen to the body post mortem?",
@@ -80,18 +61,7 @@
                     "Did these injuries happen at different times?",
                     "I make a note of that.  The victim’s hair isn’t too long. Whatever grabbed him did so with a remarkable degree of force."
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 1,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 1,
-                    "conspiracy": 0
-                },
+                "requires": 1,
                 "arthur_response": [
                     "You: “I’m starting to see a pattern come together.”",
                     "You: “This might be a bit of a reach, but I’m ready to start drawing conclusions about our corpse.”",
@@ -117,6 +87,7 @@
                 ]
             },
             "Litigate": {
+                "path": "humor",
                 "text": [
                     "Something’s been bothering me. The air is uneasy.",
                     "Something beyond the corpse in front of me. As uncomfortable as his injuries are. They represent something familiar.",
@@ -137,18 +108,7 @@
                     "They listen. They record. They reiterate. Tape recorders don’t feel the obsessive need to make their lack of musical awareness into everybody else’s problem.",
                     "I look up at Arthur again. Fuck that guy and his smuggness."
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 2,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 1,
-                    "conspiracy": 0
-                },
+                "requires": 2,
                 "arthur_response": [
                     "You: “Okay. I really don’t need you getting all sanctimonious over this, especially when we’ve got a dead body in here.”",
                     "You: “And I especially don’t need you policing me about what is and isn’t goth, especially when you’re so incredibly wrong about it.”",
@@ -183,6 +143,7 @@
         "observational_text": "lorem ipsum",
         "musings": {
             "thorough": {
+                "path": "killer",
                 "text": [
                     "The killer’s hands have been over every inch of this body.",
                     "Their scrambling of the victim’s intestines was almost total, but the rest of the organs remained undisturbed. This kind of cut would require an understanding of the body that moved beyond a nursing student’s anatomy class.",
@@ -191,18 +152,7 @@
                     "Diligently separating the connective tissue, like a seamstress laying out cloth. Pulling out the organs gingerly, before dashing them to the barren ground and going through them like a rabid dog.",
                     "What knowledge did you divine from those entrails I wonder?"
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 1,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
+                "requires": 0,
                 "arthur_response": [
                     "You: “Our killer was diligent, thorough. They took their time with this, were fully committed to their gruesome work.”",
                     "Arthur: “What makes you say that?”",
@@ -230,24 +180,14 @@
         "observational_text": "lorem ipsum",
         "musings": {
             "PERHAPS HE WAS TORTURED": {
+                "path": "killer",
                 "text": [
                     "The scarring across his fingers indicates damage old enough to heal. Perhaps the victim was a fighter, professional or otherwise, but there are other possibilities.",
                     "While the injuries seem indicative of fighting, a clever killer could perhaps disguise intentional injuries under that presumption.",
                     "Deliberate bruising to the arms, reopened scabbing. The skin under the victim's fingernails should say for sure, if it’s the victim it’s likely from nail biting and self-inflicted injury.",
                     "A more thorough examination would reveal how long it would have taken, whether this poor soul was locked away for hours or days. Repeatedly beaten in some perverse artistic expression."
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 1,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
+                "requires": 0,
                 "arthur_response": [
                     "You: “Watson, run the skin under the victim’s fingernails.”",
                     "Arthur: “You think it might be the killer?”",
@@ -273,24 +213,14 @@
         "observational_text": "lorem ipsum",
         "musings": {
             "That tattoo is strange…": {
+                "path": "conspiracy",
                 "text": [
                     "That tattoo reminds me of one I’ve seen before, but I don’t recall where.",
                     "It seems almost like a bad rendition of a Gaelic design, but the gothic-looking K is throwing me off.",
                     "Too fancy to be a whim, not good enough to be deliberate. Definitely recently retouched.",
                     "Seems almost intentionally misleading…"
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 1
-                },
+                "requires": 0,
                 "arthur_response": [
                     "You: “Arthur.”",
                     "Arthur: “Hm?”",
@@ -308,23 +238,13 @@
         "observational_text": "lorem ipsum",
         "musings": {
             "That pendant catches the eye…": {
+                "path": "conspiracy",
                 "text": [
                     "The pendant is made of a sturdy metal, harder than losing a child and colder than the rain at the funeral.",
                     "Engraved into the face is a design that looks to feature an teardrop shape, or possibly an eye.",
                     "An eye to catch the eye, perhaps? Or is it spiritually significant?"
                 ],
-                "requires": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 0
-                },
-                "increase_points": {
-                    "killer": 0,
-                    "lover": 0,
-                    "humor": 0,
-                    "conspiracy": 1
-                },
+                "requires": 0,
                 "arthur_response": [
                     "You: “Arthur, make a note of the pendant’s design.”",
                     "Arthur: “What’s the significance?”",
