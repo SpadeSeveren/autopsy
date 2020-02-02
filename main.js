@@ -98,6 +98,10 @@ function advanceDialogue() {
     }
 }
 
+function loadMusings(bodyPart){
+    window.location.href=`./${bodyPart}.html`;
+}
+
 function promptDialogue(element){
 
     element.parentNode.removeChild(element);
@@ -114,56 +118,13 @@ function promptDialogue(element){
     var noButton = document.createElement("button");
     yesButton.innerHTML = "Yes";
     noButton.innerHTML = "No";
-    noButton.onclick = function(){
-        window.location.href='./head.html';
+    noButton.onclick = () => {
+        loadMusings(element.bodyPart);
     };
     row.appendChild(yesButton);
     row.appendChild(noButton);
     table.appendChild(row);
     container.appendChild(table);
-}
-
-
-function testFunction() {
-    // and load the index.html of the app.
-    console.log("Here");
-    win.loadFile('scenes\\head.html');
-}
-
-
-function displayBody() {
-    // display clickable item for head
-    if(clicked) { // currently undefined
-        displayMusings('head');
-    }
-    // display clickable item for torso
-    if(clicked) { // currently undefined
-        displayMusings('torso');
-    }
-    // display clickable item for arms
-    if(clicked) { // currently undefined
-        displayMusings('arms');
-    }
-    // display clickable item for legs
-    if(clicked) { // currently undefined
-        displayMusings('legs');
-    }
-    // display clickable item for clipboard
-    if(clicked) { // currently undefined
-        displayMusings('clipboard');
-    }
-
-}
-
-function displayMusings(bodyPart) {
-    musings = require('./lib/text.js').musings(points, bodyPart);
-    musings.forEach(musing => {
-        // display all musings in array as clickable options
-        if (clicked) { // currently undefined
-            displayYesNo(bodyPart, musing);
-        }
-    })
-    console.log(musings);
 }
  
 function createMusings(bodyPart) {
@@ -186,34 +147,9 @@ function createMusings(bodyPart) {
     container.appendChild(table);
 }
 
-function displayYesNo(bodyPart, musing) {
-    // display musing and yes/no options
-
-    if (yes) { // currently undefined
-        increasePoints(bodyPart, musing);
-        displayArthurResponse(bodyPart, musing);
-    }
-    else {
-        displayMusings(bodyPart);
-    }
-}
-
-function displayArthurResponse(bodyPart, musing) {
-    let response = require('./lib/text.js').fetchAurthurResponse(bodyPart, musing);
-    // display response
-    // display button to continue
-    if (clicked) { // curently undefined
-        displayBody();
-    }
-}
-
-function setMood(moodToSet) {
-    aurthurMood = moodToSet;
-}
-
-function getMood() {
-    return aurthurMood;
-}
+// function getMood() {
+//     return aurthurMood;
+// }
 
 function increasePoints(bodyPart, musing) {
     points = require('./lib/text.js').increasePoints(points, bodyPart, musing);
