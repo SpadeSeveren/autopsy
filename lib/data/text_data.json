@@ -519,6 +519,27 @@
                     "I file the thought away.",
                     "It doesn't feel like we’re any closer to unraveling the mysteries of this body."
                 ]
+            },
+            "His past follows him even to the grave.": {
+                "arthur": "angry",
+                "path": "lover",
+                "text": [
+                    "Oh god… I remember that scar. I was there with him on the day of the surgery. It was an old sports injury that he aggravated to the point where they needed to reconstruct it.",
+                    "This is essentially the only part that doesn’t pain me so much to look at. I already know this injury, the story, I know exactly what happened.",
+                    "I’m letting my mind wander from what’s important again. I just need to find the murder weapon and come up with the answers to this case. Easy.",
+                    "...",
+                    "Not easy. Let’s see if Arthur has any insight that might help."
+                ],
+                "requires": 2,
+                "arthur_response": [
+                    "You: “I need some help to finish this up. I might be asking a lot from you, but I wanted to know if you had any insight as to the murder weapon or the story as a whole.”",
+                    "Arthur: “I mean… this is my first real autopsy and I haven’t seen much in the textbooks about this sort of case.”",
+                    "Arthur: “I don’t think this was someone’s first murder, cuts and incisions seem too practiced. They knew what they were doing.”",
+                    "You: “That is a great observation, Arthur. I do agree with you there, this was planned. They took their time with it.”",
+                    "You: “I have my theories of course, my idea of the weapon as well as the method. I think we should start running this information through the records.”",
+                    "You: “My Mark could have just been one in a string of many and I think if we run these findings past other cases then we might find a kind of pattern.”",
+                    "Arthur: “Whatever you say, Doctor. I will follow your lead.”"
+                ]
             }
         }
     },
