@@ -44,11 +44,12 @@ function dialogueButtonCallback(bodyPart = currentBodyPart, musing = currentMusi
     console.log(musing);
 
     var textElement = document.createElement("button");
-    textElement.innerHTML = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing)[0];
+    let arthurResponse = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing);
+    textElement.innerHTML = arthurResponse[0];
     textElement.musing = musing;
     textElement.count = 0;
     textElement.bodyPart = bodyPart;
-    textElement.dialogueLength = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing).length;
+    textElement.dialogueLength = arthurResponse.length;
     textElement.className = "dialogue_text";
     textElement.addEventListener("click", advanceArthurDialogue);
     
