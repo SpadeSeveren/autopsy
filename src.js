@@ -4,6 +4,7 @@ let {points, available} = require(`..${slash}data.json`);
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
 
+
 function musingButtonCallback(bodyPart, musing) {
 
     var container = document.getElementsByClassName("musing_table")[0];
@@ -28,13 +29,17 @@ function musingButtonCallback(bodyPart, musing) {
 
 }
 
-function dialogueButtonCallback(bodyPart, musing) {
+function dialogueButtonCallback(bodyPart = currentBodyPart, musing = currentMusing) {
 
     var container = document.getElementsByClassName("dialogue_container")[0];
-    container.parentNode.removeChild(container);
+    if(container != null)
+    {
+        container.parentNode.removeChild(container);
+    }
 
     console.log(bodyPart);
     console.log(musing);
+
     var textElement = document.createElement("button");
     textElement.innerHTML = require(`..${slash}lib${slash}text.js`).fetchArthurResponse(bodyPart, musing)[0];
     textElement.musing = musing;
@@ -115,6 +120,8 @@ function promptDialogue(element) {
     };
 
     yesButton.onclick = () => {
+        document.getElementById("img").src = `./Images/arthur happy.jpg`;
+        document.getElementsByClassName("container")[0].style = "width: 25%; height: 25%; transform: translate(150%, 0%);";
         dialogueButtonCallback(element.bodyPart, element.musing);
     };
     row.appendChild(yesButton);
