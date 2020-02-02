@@ -240,6 +240,21 @@ function loadBody() {
 
 function fetchEnding(ending) {
     var container = document.getElementsByClassName("container")[0];
-    var endingText = document.createElement("div");
-    endingText.innerHTML
+    var endingText = document.createElement("button");
+    this.textArray = require(`..${slash}lib${slash}text.js`).fetchEndingText(ending);
+    this.maxCount = textArray.length;
+    this.count = 0;
+    this.ending = ending;
+    endingText.addEventListener("click", increaseEnding);
+    container.appendChild(endingText);
+}
+
+function increaseEnding() {
+    if(count === maxCount - 1) {
+
+    }
+    else {
+        this.count++;
+        this.innerHTML = this.textArray[this.count];
+    }
 }
