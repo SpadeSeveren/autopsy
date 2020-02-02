@@ -297,6 +297,32 @@
                     "You: “More or less. You have to also take into account the bruising on the arms, and the cadaver as a whole. Then, things start to fall into place.”",
                     "When I glance back to Arthur, he’s scribbling away in his notes. He has a good head on his shoulders, and he’s quick with his pen. I wonder if he writes faster than he talks?"
                 ]
+            },
+            "Something’s missing.": {
+                "path": "humor",
+                "text": [
+                    "The victims arms have a myriad of injuries.",
+                    "Most interesting, however, is what’s missing.",
+                    "I take a brief inventory of the injuries. There’s enough impact to suggest defensive wounds, but I can’t quite extrapolate a pattern.",
+                    "I decide to focus on what’s missing."
+                ],
+                "requires": 1,
+                "arthur_response": [
+                    "You: “So. Here’s the question. What’s missing?”",
+                    "Arthur stares at the body for a moment.",
+                    "Arthur: “Blood? A motive? His life?”",
+                    "You: “Close. He’s missing another tattoo.”",
+                    "Arthur: “How do you figure?“",
+                    "You: “Think about it. Even if we don’t know the exact significance of that tattoo on his leg, it seems weird that he’d only have one. Since you can’t repo tattoos, it’s been my experience that people with over designed band tattoos generally only stop the habit at bankruptcy.“",
+                    "Arthur: “That’s an interesting way to look at it…”",
+                    "You: “Wait. How about this? He’s got an extensive, gothic tattoo, right?”",
+                    "Arthur: “I wouldn’t call it gothic, per say--",
+                    "You: “Maybe that explains the injuries on his arm. Those gothic types are gonna’ keep injuring themselves.”",
+                    "Arthur: “You’re suggesting that because a guy has a tattoo that you think belongs to a metal band, he intentionally injures himself in ways consistent with a violent struggle?”",
+                    "You: “Yes. Make a note of it.”",
+                    "Arthur sighs.",
+                    "Arthur: “Okay.“"
+                ]
             }
         }
     },
