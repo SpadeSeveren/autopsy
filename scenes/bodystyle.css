@@ -20,12 +20,12 @@ body {
   
   /* Style the button and place it in the middle of the container/image */
   .container .headButton {
-    width: 10%;
-    height: 25%;
+    width: 15%;
+    height: 20%;
     position: absolute;
-    opacity: 0.5;
-    top: 55%; /* Increase to move down */
-    left: 90%; /* Increase to move right */
+    opacity: 0.2;
+    top: 52%; /* Increase to move down */
+    left: 89%; /* Increase to move right */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -43,12 +43,12 @@ body {
 
    /* Style the button and place it in the middle of the container/image */
    .container .torsoButton {
-    width: 10%;
-    height: 25%;
+    width: 15%;
+    height: 15%;
     position: absolute;
-    opacity: 0.5;
-    top: 55%; /* Increase to move down */
-    left: 60%; /* Increase to move right */
+    opacity: 0.2;
+    top: 50%; /* Increase to move down */
+    left: 62%; /* Increase to move right */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -67,10 +67,10 @@ body {
    /* Style the button and place it in the middle of the container/image */
    .container .armsButton {
     width: 10%;
-    height: 25%;
+    height: 10%;
     position: absolute;
-    opacity: 0.5;
-    top: 90%; /* Increase to move down */
+    opacity: 0.2;
+    top: 80%; /* Increase to move down */
     left: 55%; /* Increase to move right */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -89,12 +89,12 @@ body {
 
    /* Style the button and place it in the middle of the container/image */
    .container .legsButton {
-    width: 10%;
-    height: 40%;
+    width: 11%;
+    height: 20%;
     position: absolute;
-    opacity: 0.5;
-    top: 55%; /* Increase to move down */
-    left: 20%; /* Increase to move right */
+    opacity: 0.2;
+    top: 60%; /* Increase to move down */
+    left: 22%; /* Increase to move right */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -113,13 +113,13 @@ body {
    /* Style the button and place it in the middle of the container/image */
    .container .clipboardButton {
     width: 10%;
-    height: 25%;
+    height: 20%;
     position: absolute;
-    opacity: 0.5;
-    top: 25%; /* Increase to move down */
-    left: 90%; /* Increase to move right */
+    opacity: 0.2;
+    top: 18%; /* Increase to move down */
+    left: 80%; /* Increase to move right */
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    transform: rotate(-32deg);
     background-color: #555;
     color: white;
     font-size: 16px;
