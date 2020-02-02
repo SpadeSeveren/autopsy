@@ -73,7 +73,7 @@ function advanceDialogue() {
 }
 
 function advanceArthurDialogue() {
-    if (this.count == this.dialogueLength - 1) {
+    if (this.count === this.dialogueLength - 1) {
         points = require(`..${slash}lib${slash}text.js`).increasePoints(points, this.bodyPart, this.musing);
         available[this.bodyPart] = false;
         this.innerHTML = "Return to the full-body examination";
@@ -89,26 +89,9 @@ function advanceArthurDialogue() {
 
 function loadMusings(bodyPart) {
     fs.writeFileSync(`./data.json`, JSON.stringify({ points: points, available: available }), 'utf8');
-    var end = require(`..${slash}lib${slash}text.js`).fetchEnding(points);
+    window.location.href = `./${bodyPart}.html`;
     console.log(points);
     console.log(end);
-    if(end == false) {
-        window.location.href = `./${bodyPart}.html`;
-        
-    }
-    else{
-        console.log("end achieved");
-        switch(end) {
-            case "humor":
-                window.location.href = "./humorEnding.html";
-            case "conspiracy":
-                window.location.href = "./conspiracyEnding.html";
-            case "lover":
-                window.location.href = "./loverEnding.html";
-            case "killer":
-                window.location.href = "./killerEnding.html";
-        }
-    }
 }
 
 function promptDialogue(element) {
@@ -175,11 +158,6 @@ function createMusings(bodyPart) {
     container.appendChild(div);
 }
 
-function increasePoints(bodyPart, musing) {
-    points = require('./lib/text.js').increasePoints(points, bodyPart, musing);
-    console.log(points);
-}
-
 function createBodyButtons() {
     console.log(available);
     if (available.head) {
@@ -228,5 +206,25 @@ function createBodyButtons() {
         var container = document.getElementsByClassName("container")[0];
         container.appendChild(clipboardButton);
         console.log(clipboardButton);
+    }
+}
+
+function checkEnd(){
+    var end = require(`..${slash}lib${slash}text.js`).fetchEnding(points);
+    
+    console.log(points);
+    console.log(end);
+    if(end != false){
+        console.log("end achieved");
+        switch(end) {
+            case "humor":
+                window.location.href = "./humorEnding.html";
+            case "conspiracy":
+                window.location.href = "./conspiracyEnding.html";
+            case "lover":
+                window.location.href = "./loverEnding.html";
+            case "killer":
+                window.location.href = "./killerEnding.html";
+        }
     }
 }
