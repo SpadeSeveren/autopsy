@@ -150,6 +150,7 @@ function createMusings(bodyPart) {
     container.appendChild(table);
     var div = document.createElement("P");
     div.textContent =  require(`..${slash}lib${slash}text.js`).fetchDiscriptions(bodyPart);
+    div.style = "border: 2px solid black;";
     container.appendChild(div);
 }
 
