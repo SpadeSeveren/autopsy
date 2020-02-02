@@ -93,6 +93,9 @@ function promptDialogue(element) {
     var container = document.getElementsByClassName("dialogue_container")[0];
     var prompt = document.createElement("div");
     prompt.innerHTML = "Would you like to tell your thoughts to Arthur?";
+
+    prompt.className = "prompt";
+
     container.appendChild(prompt);
 
     var table = document.createElement("table");
@@ -101,6 +104,10 @@ function promptDialogue(element) {
 
     var yesButton = document.createElement("button");
     var noButton = document.createElement("button");
+
+    yesButton.style = "width: 300px; height: 120px; border: 2px solid black;"
+    noButton.style = "width: 300px; height: 120px; border: 2px solid black;"
+
     yesButton.innerHTML = "Yes";
     noButton.innerHTML = "No";
     noButton.onclick = () => {
