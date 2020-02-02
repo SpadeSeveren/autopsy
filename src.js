@@ -1,6 +1,6 @@
 let fs = require('fs');
 const slash = process.platform === 'darwin' || process.platform === 'linux' ? '/' : '\\';
-let {points, available} = require(`..${slash}data.json`);
+let { points, available } = require(`..${slash}data.json`);
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
 
@@ -82,7 +82,7 @@ function advanceArthurDialogue() {
 }
 
 function loadMusings(bodyPart) {
-    fs.writeFileSync(`./data.json`, JSON.stringify({points: points, available: available}), 'utf8');
+    fs.writeFileSync(`./data.json`, JSON.stringify({ points: points, available: available }), 'utf8');
     window.location.href = `./${bodyPart}.html`;
 }
 
