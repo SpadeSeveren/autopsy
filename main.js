@@ -90,7 +90,7 @@ function musingButtonCallback(bodyPart, musing) {
 
 function dialogueButtonCallback(bodyPart, musing) {
 
-    var container = document.getElementsByClassName("yes_no_table")[0];
+    var container = document.getElementsByClassName("dialogue_container")[0];
     container.parentNode.removeChild(container);
 
     console.log(bodyPart);
@@ -126,7 +126,9 @@ function advanceDialogue() {
 
 function advanceArthurDialogue() {
     if(this.count == this.dialogueLength - 1) {
-        
+        points = require(`..${slash}lib${slash}text.js`).increasePoints(points, this.bodyPart, this.musing);
+        this.innerHTML = "Return to the full-body examination";
+
     }
     else {
         this.count++;
@@ -142,7 +144,7 @@ function promptDialogue(element){
 
     element.parentNode.removeChild(element);
 
-    var container = document.getElementsByClassName("container")[0];
+    var container = document.getElementsByClassName("dialogue_container")[0];
     var prompt = document.createElement("div");
     prompt.innerHTML = "Would you like to tell your thoughts to Arthur?";
     container.appendChild(prompt);
