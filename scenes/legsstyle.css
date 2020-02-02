@@ -1,16 +1,17 @@
 body {
-    background-color: white;
-  }
+  background-color: white;
+}
 
-  /* Container needed to position the button. Adjust the width as needed */
+/* Container needed to position the button. Adjust the width as needed */
 .container {
-    position: relative;
-    width: 40%;
-    height: 40%;
-    border: 2px solid black;
-    transform: translate(75%, 0%);
-  }
+  position: relative;
+  width: 40%;
+  height: 40%;
+  border: 2px solid black;
   
+  transform: translate(75%, 0%);
+}
+
   /* Make the image responsive */
   .container img {
     width: 100%;
@@ -61,7 +62,10 @@ body {
   }
 
   .prompt {
-    font-size: 20px;
-    width: 610px;
-    height: 40px
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    width: 605px;
+    height: 40px;
+    border: 2px solid black;
   }

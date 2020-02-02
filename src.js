@@ -148,6 +148,9 @@ function createMusings(bodyPart) {
         table.appendChild(row);
     })
     container.appendChild(table);
+    var div = document.createElement("P");
+    div.textContent =  require(`..${slash}lib${slash}text.js`).fetchDiscriptions(bodyPart);
+    container.appendChild(div);
 }
 
 function increasePoints(bodyPart, musing) {
