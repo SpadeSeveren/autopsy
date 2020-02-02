@@ -1,6 +1,5 @@
 {
     "head": {
-        "show": true,
         "observational_text": "lorem ipsum",
         "musings": {
             "meticulous": {
@@ -70,7 +69,6 @@
         }
     },
     "torso": {
-        "show": true,
         "observational_text": "lorem ipsum",
         "musings": {
             "thorough": {
@@ -118,7 +116,6 @@
         }
     },
     "arms": {
-        "show": true,
         "observational_text": "lorem ipsum",
         "musings": {
             "PERHAPS HE WAS TORTURED": {
@@ -162,7 +159,6 @@
         }
     },
     "legs": {
-        "show": true,
         "observational_text": "lorem ipsum",
         "musings": {
             "That tattoo is strange…": {
@@ -198,7 +194,6 @@
         }
     },
     "clipboard": {
-        "show": true,
         "observational_text": "lorem ipsum",
         "musings": {
             "That pendant catches the eye…": {
