@@ -161,10 +161,6 @@
             "His face is so serene and calm for such terrible circumstances.": {
                 "path": "lover",
                 "text": [
-                    "The victim’s face looks peaceful, as if he’s sleeping and will wake up at any moment. Despite the injuries on the rest of his body, his face remains relatively undamaged.",
-                    "His facial features are soft. A rounded chin and flat cheeks that haven’t quite lost all their baby fat. Some dirt is smudged on the left side of his face, just below the cheekbone.",
-                    "Although his body has since picked up some dirt and grime, his complexion remains relatively clear. The color has since drained from his face, highlighting just how smooth his skin is.",
-                    "Whatever impact injured his head was delivered with enough force to partially crack his skull, giving his overall head shape an uneven and somewhat flat appearance. Clumps of loose skin around the point of contact suggest the possibility of a serrated weapon, but it will ultimately be impossible to determine the exact dimensions without shaving his head and compromising potential trace evidence.",
                     "His face looks just as it did when he was alive; if only he would just wake up at any moment. Then we could talk again like we used to before the accident.",
                     "Wait--this was not an accident, this was a murder. I have to figure out what really happened here.",
                     "Focus on the wounds, on the body in front of you, not on the person. He is gone, I have to accept that and figure out how… and why…",
@@ -314,8 +310,6 @@
             "It’s so gruesome, and hard to look at…": {
                 "path": "lover",
                 "text": [
-                    "The cut is deep, like a thought that lingers just a little too long. Intestines were found outside the body, and have been partially replaced for this procedure.",
-                    "The intestines themselves are shredded and almost unrecognizable. Faithful reconstruction is impossible, but it can be noted that a significant amount of tissue is missing.",
                     "There is no way that this level of internal mangling could have been done while he was still alive. It’s much too severe.",
                     "The damages done to the internal organs are also consistent if we assume the initial stab wound took place post mortem.",
                     "I can’t believe some maniac was capable of just digging around in a corpse’s insides. Without it being for work, I mean…",
@@ -428,8 +422,6 @@
             "This bruising seems as if it were from a fall or self defense.": {
                 "path": "lover",
                 "text": [
-                    "Victim has several injuries along his arms consistent with a struggle, but the overall chaotic nature of the body makes it difficult to tell which ones are recent.",
-                    "Bruising along the victim’s forearms consistent with blunt impact. These bruises have bloomed into vibrant blue splotches that cover his arms like patchwork flowers. Webs of burst capillaries indicate that the trauma was severe, but the blooming makes it difficult to tell the initial dimensions of the impact.",
                     "Where did this large and intense bruising on the forearms come from?",
                     "The sheer size of it tells me it wasn’t from a point of impact but rather a full contact situation.",
                     "Did he fall and try to catch himself before landing?",
