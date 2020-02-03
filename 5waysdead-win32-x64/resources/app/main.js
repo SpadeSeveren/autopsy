@@ -20,7 +20,7 @@ function createWindow() {
         }
     });
 
-    fs.writeFileSync(`./data.json`, JSON.stringify({
+    fs.writeFileSync(`./resources/app/data.json`, JSON.stringify({
         "points": {
             "killer": 0,
             "lover": 0,

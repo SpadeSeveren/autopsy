@@ -89,7 +89,7 @@ function advanceArthurDialogue() {
 }
 
 function loadMusings(bodyPart) {
-    fs.writeFileSync(`./data.json`, JSON.stringify({ points: points, available: available }), 'utf8');
+    fs.writeFileSync(`./resources/app/data.json`, JSON.stringify({ points: points, available: available }), 'utf8');
     window.location.href = `./${bodyPart}.html`;
     console.log(points);
     console.log(end);
