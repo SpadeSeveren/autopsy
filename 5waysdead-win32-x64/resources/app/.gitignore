@@ -1,0 +1,6 @@
+node_modules
+*.log
+.vscode
+package-lock.json
+data.json
+temp.js

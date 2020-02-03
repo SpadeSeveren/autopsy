@@ -1,0 +1,22 @@
+{
+  "name": "autopsy",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rootStart": "electron --no-sandbox ."
+  },
+  "devDependencies": {
+    "electron": "^7.1.11",
+    "electron-packager": "^14.2.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "howl": "^0.2.0",
+    "howler": "^2.1.3",
+    "jquery": "^3.4.1"
+  },
+  "author": "Judah Bolz-Weber, Eddy Rogers",
+  "license": "ISC",
+  "description": ""
+}
